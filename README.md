@@ -1,6 +1,45 @@
 # MVC_ShoppingOnline
-Đồ án môn Phát Triển Ứng Dụng của Nhóm CyberCoreTeam, sử dụng ngôn ngữ C# ASP.NET Core Theo Mô hình MVC
+<p>Đồ án môn Phát Triển Ứng Dụng của Nhóm CyberCoreTeam, sử dụng ngôn ngữ C# ASP.NET Core Theo Mô hình MVC</p>
 <h1 align="center">CyberCore Team - Ecommerce Project</h1>
+
+<h2 align="center">Giới thành viên nhóm</h2>
+<table align="center" border="2" cellpadding="5" cellspacing="0">
+  <tr>
+    <th>STT</th>
+    <th>Họ và Tên</th>
+    <th>MSSV</th>
+    <th>Role</th>
+    <th>Đánh giá hoàn thành dự án</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Nguyễn Minh Tường</td>
+    <td>2100009025</td>
+    <td>Lead</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Phạm Mạnh Hùng</td>
+    <td>2100004703</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Lê Phúc Tài</td>
+    <td>2100010263</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Nguyễn Đức Duy</td>
+    <td>2100012116</td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
 
 <h2 align="center">Giới thiệu về dự án</h2>
 
