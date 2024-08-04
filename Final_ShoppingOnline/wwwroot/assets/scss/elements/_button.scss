@@ -1,0 +1,112 @@
+/* 2.4 - Button Style - start
+================================================== */
+.load_more {
+	margin-top: 60px;
+}
+
+.btn {
+	outline: none;
+	line-height: 1;
+	color: $color_white;
+	font-size: 14px;
+	font-weight: 500;
+	border-radius: 3px;
+	display: inline-block;
+	padding: 19px 33px 17px;
+	text-transform: uppercase;
+	border: 2px solid transparent;
+	transition: $transition;
+	&:focus {
+		outline: none;
+		box-shadow: none;
+	}
+	&:hover {
+		color: $color_white;
+	}
+
+	&.btn_primary {
+		border-color: $color_primary;
+		background-color: $color_primary;
+		&:hover {
+			color: $color_primary;
+			background-color: transparent;
+		}
+	}
+	&.btn_secondary {
+		border-color: $color_warning;
+		background-color: $color_warning;
+		&:hover {
+			color: $color_warning;
+			background-color: transparent;
+		}
+	}
+	&.btn_danger {
+		border-color: $color_danger;
+		background-color: $color_danger;
+		&:hover {
+			color: $color_danger;
+			background-color: transparent;
+		}
+	}
+	&.btn_warning {
+		border-color: $color_warning;
+		background-color: $color_warning;
+		&:hover {
+			color: $color_warning;
+			background-color: transparent;
+		}
+	}
+	&.btn_dark {
+		border-color: $color_dark;
+		background-color: $color_dark;
+		&:hover {
+			color: $color_dark;
+			background-color: transparent;
+		}
+	}
+	&.btn_gray {
+		color: $color_dark;
+		border-color: #f4f4f4;
+		background-color: #f4f4f4;
+		&:hover {
+			color: $color_white;
+			border-color: $color_primary;
+			background-color: $color_primary;
+		}
+	}
+
+	&.border_primary {
+		color: #636363;
+		border-color: $color_primary;
+		&:hover {
+			color: $color_white;
+			background-color: $color_primary;
+		}
+	}
+	&.border_white {
+		color: $color_white;
+		border-color: $color_white;
+		&:hover {
+			color: $color_danger;
+			background-color: $color_white;
+		}
+	}
+	&.border_black {
+		color: $color_dark;
+		border-color: $color_dark;
+		&:hover {
+			color: $color_white;
+			background-color: $color_dark;
+		}
+	}
+	&.border_warning {
+		color: $color_warning;
+		border-color: $color_warning;
+		&:hover {
+			color: $color_white;
+			background-color: $color_warning;
+		}
+	}
+}
+/* 2.4 - Button Style - end
+================================================== */

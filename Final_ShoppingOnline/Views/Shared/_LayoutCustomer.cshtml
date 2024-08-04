@@ -1,0 +1,344 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>@ViewData["Title"] | CyberCore Shop</title>
+    <link rel="shortcut icon" href="~/assets/images/logo/favourite-big-size-icon-removebg.png">
+
+    <!-- fraimwork - css include -->
+    <link rel="stylesheet" type="text/css" href="~/assets/css/bootstrap.min.css">
+
+    <!-- icon font - css include -->
+    <link rel="stylesheet" type="text/css" href="~/assets/css/fontawesome.css">
+    <link rel="stylesheet" type="text/css" href="~/assets/css/stroke-gap-icons.css">
+    <link rel="stylesheet" type="text/css" href="~/assets/css/icofont.css">
+
+    <!-- animation - css include -->
+    <link rel="stylesheet" type="text/css" href="~/assets/css/animate.css">
+
+    <!-- carousel - css include -->
+    <link rel="stylesheet" type="text/css" href="~/assets/css/slick.css">
+    <link rel="stylesheet" type="text/css" href="~/assets/css/slick-theme.css">
+
+    <!-- popup - css include -->
+    <link rel="stylesheet" type="text/css" href="~/assets/css/magnific-popup.css">
+
+    <!-- jquery-ui - css include -->
+    <link rel="stylesheet" type="text/css" href="~/assets/css/jquery-ui.css">
+
+    <!-- select option - css include -->
+    <link rel="stylesheet" type="text/css" href="~/assets/css/nice-select.css">
+
+    <!-- custom - css include -->
+    <link rel="stylesheet" type="text/css" href="~/assets/css/style.css">
+
+</head>
+<body>
+
+    <!-- body_wrap - start -->
+    <div class="body_wrap">
+
+        <!-- backtotop - start -->
+        <div class="backtotop">
+            <a href="#" class="scroll">
+                <i class="far fa-arrow-up"></i>
+            </a>
+        </div>
+        <!-- backtotop - end -->
+        <!-- preloader - start -->
+        <div id="preloader"></div>
+        <!-- preloader - end -->
+        <!-- header_section - start
+        ================================================== -->
+        <header class="header_section">
+            <div class="header_top">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col col-md-6">
+                            <ul class="header_select_options ul_li">
+                                <li>
+                                    <div class="select_option">
+                                        <div class="flug_wrap">
+                                            <img src="~/assets/images/flug/flug_uk.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                        </div>
+                                        <select>
+                                            <option data-display="Select Option">Select Your Language</option>
+                                            <option value="1" selected>English</option>
+                                            <option value="2">Vietnamese</option>
+                                        </select>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="select_option">
+                                        <h3 class="title_text">Currency:</h3>
+                                        <select>
+                                            <option data-display="Select Option">Select Your Currency</option>
+                                            <option value="united States Dollar" selected>USD</option>
+                                            <option value="Vietnamese">VND</option>
+                                        </select>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col col-md-6">
+                            <p class="header_hotline">Hotline: <strong>(+84) 329407627</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header_middle">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col col-lg-3 col-5">
+                            <div class="brand_logo">
+                                <a class="brand_link" asp-controller="Home" asp-action="Index">
+                                    <img src="~/assets/images/logo/cybercore.logo.jpg" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col col-lg-6 col-2">
+                            <nav class="main_menu navbar navbar-expand-lg">
+                                <div class="main_menu_inner collapse navbar-collapse justify-content-center" id="main_menu_dropdown">
+                                    <ul class="main_menu_list ul_li">
+                                        <li><a asp-controller="" asp-action="">Home</a></li>
+                                        <li>
+                                            <a class="nav-link" asp-controller="" asp-action="" id="blog_submenu" role="button" aria-expanded="false">
+                                                Blog
+                                            </a>
+                                        </li>
+                                        
+                                        <li class="dropdown">
+                                            <a class="nav-link" role="button" aria-expanded="false">
+                                                About
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a asp-controller="" asp-action="">About us</a></li>
+                                                <li><a asp-controller="" asp-action="">Team</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a asp-controller="" asp-action="">Login</a></li>
+                                        <li><a asp-controller="" asp-action="">Register</a></li>
+                                        <li><a asp-controller="" asp-action="">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+
+                        <div class="col col-lg-3 col-5">
+                            <ul class="header_icons_group ul_li_right">
+                                <li>
+                                    <button class="mobile_menu_btn navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_menu_dropdown" aria-controls="main_menu_dropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                        <i class="fal fa-bars"></i>
+                                    </button>
+                                </li>
+                                <li><a href="contact.html"><i class="fa-regular fa-location-dot"></i></a></li>
+                                <li><a href="compare.html"><i class="fa-solid fa-arrows-rotate"></i></a></li>
+                                <li>
+                                    <a asp-controller="" asp-action="">
+                                        <i class="fa-regular fa-heart"></i>
+                                        @* Cho model hiển thị số lượng item có trong wish list - chức năng này chỉ được phép tồn tại khi đăng nhập *@
+                                        @* <small class="wishlist_counter">5</small> *@
+                                    </a>
+                                </li>
+                                <li><a asp-controller="" asp-action=""><i class="fa-regular fa-user"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header_bottom">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col col-md-3 col-6">
+                            <div class="allcategories_dropdown">
+                                <button class="allcategories_btn" type="button" data-bs-toggle="collapse" data-bs-target="#allcategories_collapse" aria-expanded="false" aria-controls="allcategories_collapse">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="13" viewBox="0 0 15 13">
+                                        <image width="15" height="13" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAANAgMAAAALcNzSAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACVBMVEX+//3+//0AAABvRd2oAAAAAXRSTlMAQObYZgAAAAFiS0dEAmYLfGQAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQflBwIBIhVZ2fz2AAAAGUlEQVQI12MIDQ0NYQATaAAshEUcJgvVBgDy4QdJZv6kzwAAAABJRU5ErkJggg==" />
+                                    </svg>
+                                    All Categories
+                                </button>
+                                <div class="allcategories_collapse collapse" id="allcategories_collapse">
+                                    <div class="card card-body">
+                                        <ul class="allcategories_list ul_li_block">
+                                        @* Cho model duyệt qua danh sách category và hiển thị trên header chính *@
+                                        @* <li><a asp-controller="" asp-action=""> New Arrival Products</a></li> *@
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col col-md-6">
+                            <form action="#">
+                                <div class="advance_serach">
+                                    <div class="form_item">
+                                        <input type="search" name="search" placeholder="Search Prudcts...">
+                                    </div>
+                                    <button type="submit" class="search_btn"><i class="far fa-search"></i></button>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="col col-md-3 col-6">
+                            <button type="button" class="cart_btn">
+                                <span class="cart_icon">
+                                    <i class="icon icon-ShoppingCart"></i>
+                                    @* Cho model hiển thị số lượng item trong giỏ hàng, có thể không cần đăng nhập *@
+                                    @*<small class="cart_counter">3</small> *@
+                                </span>
+                                <span class="cart_amount">$90.00</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header_section - end
+        ================================================== -->
+        <!-- main body - start
+        ================================================== -->
+        <main>
+            @RenderBody()
+        </main>
+        <!-- main body - end
+        ================================================== -->
+        <!-- newsletter_section - start
+        ================================================== -->
+        @await Html.PartialAsync("_LayoutNewsLetter")
+        <!-- newsletter_section - end
+        ================================================== -->
+
+        <!-- footer_section - start
+        ================================================== -->
+        <footer class="footer_section">
+            <div class="footer_widget_area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col col-lg-4 col-md-6 col-sm-6">
+                            <div class="footer_widget footer_about">
+                                <div class="brand_logo">
+                                    <a class="brand_link" href="index.html">
+                                        <img src="~/assets/images/logo/cybercore.logo.jpg" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                    </a>
+                                </div>
+                                <p>
+                                    The e-commerce website project was built by CyberCore Team with the goal of providing a convenient, safe and effective online shopping experience for users.
+                                </p>
+                                <ul class="social_round ul_li">
+                                    <li><a href=""https://www.youtube.com/@dotnet""><i class="icofont-youtube-play"></i></a></li>
+                                    <li><a href="https://www.facebook.com/tuong1910"><i class="icofont-facebook"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/t%C6%B0%E1%BB%9Dng-nguy%E1%BB%85n-aa6517321/"><i class="icofont-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col col-lg-2 col-md-3 col-sm-6">
+                            <div class="footer_widget footer_useful_links">
+                                <h3 class="footer_widget_title text-uppercase">Quick Links</h3>
+                                <ul class="ul_li_block">
+                                    <li><a asp-controller="" asp-action="">About Us</a></li>
+                                    <li><a asp-controller="" asp-action="">Contact</a></li>
+                                    <li><a asp-controller="" asp-action="">Products</a></li>
+                                    <li><a asp-controller="" asp-action="">Login</a></li>
+                                    <li><a asp-controller="" asp-action="">Sign Up</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col col-lg-2 col-md-3 col-sm-6">
+                            <div class="footer_widget footer_useful_links">
+                                <h3 class="footer_widget_title text-uppercase">Custom area</h3>
+                                <ul class="ul_li_block">
+                                    <li><a asp-controller="" asp-action="">My Account</a></li>
+                                    <li><a asp-controller="" asp-action="">Wishlist</a></li>
+                                    <li><a asp-controller="" asp-action="">Tracking List</a></li>
+                                    <li><a asp-controller="" asp-action="">My Cart</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col col-lg-4 col-md-6 col-sm-6">
+                            <div class="footer_widget footer_contact">
+                                <h3 class="footer_widget_title text-uppercase">Contact Info</h3>
+                                <p>
+                                    Nguyen Minh Tuong
+                                </p>
+                                <div class="hotline_wrap">
+                                    <div class="footer_hotline">
+                                        <div class="item_icon">
+                                            <i class="icofont-headphone-alt"></i>
+                                        </div>
+                                        <div class="item_content">
+                                            <h4 class="item_title">Have any question?</h4>
+                                            <span class="hotline_number">(+84) 329407627</span>
+                                        </div>
+                                    </div>
+                                    <div class="livechat_btn clearfix">
+                                        <a class="btn border_primary" href="#!">Live Chat</a>
+                                    </div>
+                                </div>
+                                <ul class="store_btns_group ul_li">
+                                    <li><a href="#!"><img src="~/assets/images/app_store.png" alt="app_store"></a></li>
+                                    <li><a href="#!"><img src="~/assets/images/play_store.png" alt="play_store"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer_bottom">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col col-md-6">
+                            <p class="copyright_text">
+                                <a>Copyright</a> © <b>CyberCore Shop</b>. All rights reserved Copyrights 2024
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer_section - end
+        ================================================== -->
+
+    </div>
+    <!-- body_wrap - end -->
+    <!-- fraimwork - jquery include -->
+    <script src="~/assets/js/jquery.min.js"></script>
+    <script src="~/assets/js/popper.min.js"></script>
+    <script src="~/assets/js/bootstrap.min.js"></script>
+    <script src="~/assets/js/bootstrap5-dropdown-ml-hack.js"></script>
+
+    <!-- carousel - jquery include -->
+    <script src="~/assets/js/slick.min.js"></script>
+
+    <!-- popup - jquery include -->
+    <script src="~/assets/js/magnific-popup.min.js"></script>
+
+    <!-- jquery-ui - jquery include -->
+    <script src="~/assets/js/jquery-ui.js"></script>
+
+    <!-- off canvas sidebar - jquery include -->
+    <script src="~/assets/js/mCustomScrollbar.js"></script>
+
+    <!-- select option - jquery include -->
+    <script src="~/assets/js/nice-select.min.js"></script>
+
+    <!-- countdown timer - jquery include -->
+    <script src="~/assets/js/countdown.js"></script>
+
+    <!-- counter up - jquery include -->
+    <script src="~/assets/js/counterup.min.js"></script>
+    <script src="~/assets/js/waypoints.min.js"></script>
+
+    <!-- custom - jquery include -->
+    <script src="~/assets/js/main.js"></script>
+
+</body>
+</html>

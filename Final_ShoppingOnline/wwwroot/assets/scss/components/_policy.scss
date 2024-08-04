@@ -1,0 +1,44 @@
+/* 3.9 - Policy Section - start
+================================================== */
+.policy_section {
+	display: flex;
+	padding: 0 115px;
+	align-items: center;
+	justify-content: space-between;
+	border-top: 1px solid $color_border;
+	border-bottom: 1px solid $color_border;
+}
+.policy_item {
+	display: flex;
+	padding: 32px 30px;
+	align-items: center;
+	.item_icon {
+		font-size: 36px;
+		margin-right: 20px;
+		color: $color_primary;
+		i {
+			display: inline-block;
+			transition: $transition;
+		}
+	}
+	.item_title {
+		line-height: 1;
+		font-size: 20px;
+		font-weight: 500;
+		margin-bottom: 10px;
+	}
+	p {
+		line-height: 1;
+		margin-bottom: 0;
+	}
+
+	&:hover {
+		.item_icon {
+			i {
+				transform: scaleX(-1);
+			}
+		}
+	}
+}
+/* 3.9 - Policy Section - end
+================================================== */

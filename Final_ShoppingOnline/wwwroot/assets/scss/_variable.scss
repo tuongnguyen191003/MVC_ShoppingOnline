@@ -1,0 +1,28 @@
+// Template Font Family
+$font_body: 'Rubik', sans-serif;
+$font_heading: 'Rubik', sans-serif;
+$font_secondary: 'Roboto', sans-serif;
+
+// Template Color
+$color_white: #ffffff;
+$color_black: #000000;
+$color_body_bg: #ffffff;
+$color_danger: #f03d3f;
+$color_warning: #f3970d;
+$color_secondary: #636363;
+$color_dark: #252525;
+$color_primary: #2742fd;
+$color_border: #ededed;
+$color_rating: #ffb11a;
+
+:root {
+	--bs-primary: #2742fd;
+	--bs-secondary: #636363;
+	--bs-warning: #f3970d;
+	--bs-danger: #f03d3f;
+	--bs-dark: #252525;
+	--bs-light: #fafafa;
+}
+
+// Template Transition
+$transition: 0.6s cubic-bezier(0.25, 1, 0.5, 1);

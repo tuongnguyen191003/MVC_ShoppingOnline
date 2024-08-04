@@ -1,0 +1,34 @@
+/* 2.12 - Pagination Nav - start
+================================================== */
+.pagination_wrap {
+  padding-top: 40px;
+}
+.pagination_nav {
+  margin: -3px;
+  li {
+    padding: 3px;
+  }
+  a {
+    height: 40px;
+    display: flex;
+    min-width: 40px;
+    font-size: 16px;
+    border-radius: 3px;
+    align-items: center;
+    color: $color_dark;
+    justify-content: center;
+    border: 1px solid $color_border;
+  }
+  li {
+    &:hover,
+    &.active {
+      a {
+        color: $color_white;
+        border-color: $color_primary;
+        background-color: $color_primary;
+      }
+    }
+  }
+}
+/* 2.12 - Pagination Nav - end
+================================================== */

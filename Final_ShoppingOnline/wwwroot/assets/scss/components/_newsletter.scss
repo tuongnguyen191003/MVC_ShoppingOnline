@@ -1,0 +1,41 @@
+/* 3.13 - Newsletter Section - start
+================================================== */
+.newsletter_section {
+	padding: 65px 0;
+	background-color: $color_primary;
+}
+
+.newsletter_title {
+	display: flex;
+	line-height: 1;
+	font-size: 34px;
+	margin-bottom: 0;
+	align-items: center;
+	i {
+		font-size: 80px;
+		margin-right: 10px;
+	}
+}
+.newsletter_form {
+	position: relative;
+	input {
+		width: 100%;
+		border: none;
+		height: 60px;
+		display: block;
+		padding: 0 25px;
+		border-radius: 0;
+	}
+	.btn {
+		top: 50%;
+		right: 0;
+		font-size: 18px;
+		min-width: 170px;
+		border-radius: 0;
+		position: absolute;
+		padding: 20px 33px 18px;
+		transform: translateY(-50%);
+	}
+}
+/* 3.13 - Newsletter Section - end
+================================================== */

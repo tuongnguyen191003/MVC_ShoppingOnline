@@ -1,0 +1,53 @@
+/* 3.10 - About Page - start
+================================================== */
+.about_image {
+	img {
+		width: 100%;
+		height: auto;
+	}
+}
+.about_content {
+	padding-right: 40px;
+	p {
+		margin-bottom: 40px;
+	}
+}
+.about_small_title {
+	line-height: 1;
+	font-size: 16px;
+	font-weight: 500;
+	margin-bottom: 15px;
+	color: $color_primary;
+}
+.about_title {
+	font-size: 30px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+.counter_wrap {
+	margin: -10px;
+	>li {
+		padding: 10px;
+		&:not(:last-child) {
+			margin-right: 20px;
+		}
+	}
+	span,small {
+		display: block;
+		line-height: 1;
+	}
+	span {
+		font-size: 36px;
+		font-weight: 700;
+		color: $color_dark;
+		margin-bottom: 8px;
+	}
+	strong {
+		font-weight: 700;
+	}
+	small {
+		font-size: 15px;
+	}
+}
+/* 3.10 - About Page - end
+================================================== */

@@ -1,0 +1,43 @@
+/* 3.24 - Call To Action Section - start
+================================================== */
+.calltoaction_section {
+	@include bg_image_property;
+	background-attachment: fixed;
+	background-blend-mode: overlay;
+	background-color: rgba(255, 255, 255, 0.96);
+	.item_image {
+		margin-right: -110px;
+		img {
+			filter: drop-shadow(0px 15px 20px rgba(0, 0, 0, 0.5));
+		}
+	}
+	.item_content {
+		padding-left: 100px;
+	}
+	h2 {
+		font-size: 16px;
+		margin-bottom: 15px;
+		color: $color_primary;
+	}
+	h3 {
+		font-size: 36px;
+		font-weight: 700;
+		line-height: 1.38;
+		margin-bottom: 25px;
+	}
+	.item_price {
+		line-height: 1;
+		margin-bottom: 35px;
+		.sale_price {
+			font-size: 34px;
+			margin-right: 8px;
+			color: $color_danger;
+		}
+		del {
+			margin: 0;
+			font-size: 20px;
+		}
+	}
+}
+/* 3.24 - Call To Action Section - end
+================================================== */
