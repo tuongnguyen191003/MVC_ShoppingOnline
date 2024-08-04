@@ -1,0 +1,64 @@
+/* 3.6 - Category Style - start
+================================================== */
+.category_boxed {
+	z-index: 1;
+	padding: 10px;
+	display: block;
+	position: relative;
+	border: 1px solid $color_border;
+	>a {
+		display: block;
+		padding: 26px 0;
+		text-align: center;
+		background-color: #f8f8f8;
+		>span {
+			display: block;
+		}
+	}
+	.item_image {
+		height: 120px;
+		display: flex;
+		margin-bottom: 20px;
+		align-items: center;
+		justify-content: center;
+		img {
+			max-width: 150px;
+			max-height: 110px;
+			transition: $transition;
+		}
+	}
+	.item_title {
+		font-size: 15px;
+		font-weight: 500;
+		color: $color_dark;
+	}
+
+	&:hover {
+		>a {
+			span {
+				color: $color_primary;
+			}
+		}
+		.item_image {
+			img {
+				transform: scale(1.08);
+			}
+		}
+	}
+}
+
+.top_category_carousel {
+	z-index: 2;
+	padding: .5px;
+	overflow: hidden;
+	position: relative;
+	border-right: 1px solid $color_border;
+	.slick-list {
+		overflow: visible;
+	}
+	.slider_item {
+		margin: -.5px;
+	}
+}
+/* 3.6 - Category Style - end
+================================================== */

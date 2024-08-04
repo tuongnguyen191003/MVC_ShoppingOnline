@@ -1,0 +1,117 @@
+/* 3.20 - Account Page - start
+================================================== */
+.account_menu {
+	.title_text {
+		line-height: 1;
+		font-size: 22px;
+		margin-bottom: 15px;
+	}
+	.account_menu_list {
+		>li {
+			&:not(:last-child) {
+				margin-bottom: -1px;
+			}
+			&:first-child {
+				>a {
+					border-top-left-radius: 3px;
+					border-top-right-radius: 3px;
+				}
+			}
+			&:last-child {
+				>a {
+					border-bottom-left-radius: 3px;
+					border-bottom-right-radius: 3px;
+				}
+			}
+			>a {
+				line-height: 1;
+				display: block;
+				font-size: 15px;
+				font-weight: 500;
+				padding: 15px 19px;
+				color: $color_dark;
+				border: 1px solid $color_border;
+			}
+			&:hover,
+			&.active {
+				>a {
+					color: $color_white;
+					background-color: $color_primary;
+				}
+			}
+		}
+	}
+}
+
+.account_content_area {
+	.content_layout {
+		display: flex;
+		flex-wrap: wrap;
+		border-top: 1px solid $color_border;
+		border-left: 1px solid $color_border;
+		>li {
+			width: 50%;
+			flex: 0 0 50%;
+			padding: 25px 20px;
+			border-right: 1px solid $color_border;
+			border-bottom: 1px solid $color_border;
+			&:nth-child(1),
+			&:nth-child(2) {
+				width: 100%;
+				flex: 0 0 100%;
+			}
+		}
+	}
+
+	a {
+		color: $color_primary;
+		&:hover {
+			color: $color_primary;
+			text-decoration: underline;
+		}
+	}
+
+	h3 {
+		line-height: 1;
+		font-size: 22px;
+		margin-bottom: 15px;
+	}
+
+	h4 {
+		line-height: 1;
+		font-size: 18px;
+		font-weight: 500;
+		margin-bottom: 8px;
+		strong {
+			font-weight: 500;
+		}
+	}
+
+	p {
+		margin-bottom: 15px;
+	}
+
+	.btn {
+		opacity: 1;
+		border: none;
+		font-size: 15px;
+		font-weight: 500;
+		padding: 12px 20px;
+		border-radius: 3px;
+		text-transform: capitalize;
+		&:hover {
+			color: $color_white;
+			text-decoration: none;
+			background-color: $color_primary;
+		}
+	}
+
+	.btns_group {
+		margin: -2px;
+		>li {
+			padding: 2px;
+		}
+	}
+}
+/* 3.20 - Account Page - end
+================================================== */

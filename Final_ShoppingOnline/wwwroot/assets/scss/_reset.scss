@@ -1,0 +1,150 @@
+/* 1.2 Template Global Reset - start
+================================================== */
+body {
+	margin: 0px;
+	padding: 0px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.65;
+	font-style: normal;
+	color: $color_secondary;
+	font-family: $font_body;
+	background-color: $color_body_bg;
+	text-rendering: optimizelegibility;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}
+
+.body_wrap {
+	overflow: hidden;
+	position: relative;
+}
+
+::selection {
+	color: $color_white;
+	background-color: $color_primary;
+}
+::-moz-selection {
+	color: $color_white;
+	background-color: $color_primary;
+}
+
+iframe {
+	border: none;
+}
+
+a:focus,
+a:active,
+input,
+input:hover,
+input:focus,
+input:active,
+textarea,
+textarea:hover,
+textarea:focus,
+textarea:active {
+	outline: none;
+}
+
+img:not([draggable]),
+embed,
+object,
+video {
+	height: auto;
+	max-width: 100%;
+}
+img {
+	border: none;
+	height: auto;
+	max-width: 100%;
+	user-select: none;
+	vertical-align: middle;
+}
+
+a {
+	outline: 0;
+	display: inline-block;
+	text-decoration: none;
+	transition: $transition;
+	&:active,
+	&:focus,
+	&:hover,
+	&:visited {
+		outline: 0;
+		text-decoration: none;
+	}
+}
+
+button {
+	padding: 0px;
+	border: none;
+	outline: none;
+	background: none;
+	display: inline-block;
+	transition: $transition;
+	&:focus {
+		outline: none;
+	}
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: 500;
+	color: $color_dark;
+	font-family: $font_heading;
+}
+
+hr {
+	opacity: 1;
+	height: 2px;
+	margin: 25px 0;
+	border-top: 1px solid $color_border;
+}
+
+@keyframes arrowMoveOut {
+	0% {
+		opacity: 1;
+		transform:translateY(0) scaleY(-1);
+	}
+	49% {
+		opacity: 0;
+		transform: translateY(-15px) scale(0.5, -1);
+	}
+	50% {
+		opacity: 0;
+		transform: translateY(-15px) scaleX(0.5);
+	}
+	100% {
+		opacity: 1;
+		transform: none;
+	}
+}
+@keyframes arrowMoveIn {
+	0% {
+		opacity: 1;
+		transform: none;
+	}
+	49% {
+		opacity: 0;
+		transform: translateY(15px) scaleX(0.5);
+	}
+	50% {
+		opacity: 0;
+		transform: translateY(15px) scale(0.5, -1);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0) scaleY(-1);
+	}
+}
+
+.dropdown-menu {
+	margin: 0;
+	min-width: 210px;
+	padding: 16px 12px;
+	border-radius: 6px;
+	color: $color_secondary;
+	border: 1px solid $color_border;
+	box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.15);
+}
+/* 1.2 Template Global Reset - end
+================================================== */

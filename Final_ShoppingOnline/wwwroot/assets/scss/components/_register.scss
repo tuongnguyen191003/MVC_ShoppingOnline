@@ -1,0 +1,95 @@
+/* 3.25 - Register Form - start
+================================================== */
+.register_tabnav {
+	margin-bottom: 20px;
+	>li {
+		position: relative;
+		&:not(:last-child) {
+			margin-right: 20px;
+			padding-right: 20px;
+		}
+		&:after {
+			top: 50%;
+			right: -1px;
+			width: 2px;
+			content: '';
+			height: 23px;
+			position: absolute;
+			transform: translateY(-50%);
+			background-color: $color_border;
+		}
+		&:last-child {
+			&:after {
+				display: none;
+			}
+		}
+	}
+	button {
+		display: block;
+		font-size: 26px;
+		font-weight: 500;
+		color: $color_secondary;
+		&:hover,
+		&.active {
+			color: $color_primary;
+		}
+	}
+}
+
+.register_wrap {
+	padding: 70px;
+	border-radius: 3px;
+	background-color: $color_white;
+	border: 1px solid $color_border;
+
+	.input_title {
+		font-size: 16px;
+	}
+
+	.form_item {
+		label {
+			top: 0;
+			left: 0;
+			z-index: 1;
+			width: 54px;
+			height: 54px;
+			display: flex;
+			position: absolute;
+			color: $color_dark;
+			align-items: center;
+			justify-content: center;
+			transition: $transition;
+			background-color: #f0f0f2;
+			border: 1px solid #dddddd;
+		}
+		input {
+			height: 54px;
+			border-radius: 0;
+			padding-left: 70px;
+			border: 1px solid #dddddd;
+		}
+		span {
+			opacity: 0.7;
+			display: block;
+			line-height: 1;
+			font-size: 14px;
+			margin-top: 10px;
+		}
+	}
+
+	.forget_pass_wrap {
+		display: flex;
+		margin-bottom: 32px;
+	}
+
+	.forget_pass {
+		a {
+			color: $color_primary;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+}
+/* 3.25 - Register Form - end
+================================================== */

@@ -1,0 +1,126 @@
+/* 3.2 - Footer Section - start
+================================================== */
+.footer_section {
+	padding: 120px 0 30px;
+	.brand_logo {
+		margin-bottom: 12px;
+	}
+}
+
+.footer_widget_title {
+	color: #000000;
+	line-height: 1;
+	font-size: 16px;
+	margin-bottom: 25px;
+}
+
+.footer_widget_area {
+	margin-bottom: 30px;
+	padding-bottom: 80px;
+	border-bottom: 1px solid $color_border;
+}
+
+.footer_about {
+	padding-right: 35px;
+	p {
+		margin-bottom: 30px;
+	}
+}
+
+.footer_useful_links {
+	li {
+		&:not(:last-child) {
+			margin-bottom: 10px;
+		}
+	}
+	a {
+		color: $color_secondary;
+		&:hover {
+			color: $color_primary;
+		}
+	}
+}
+
+.footer_contact {
+	p {
+		margin-bottom: 10px;
+	}
+}
+
+.hotline_wrap {
+	display: flex;
+	align-items: center;
+	margin-bottom: 30px;
+	justify-content: space-between;
+}
+
+.footer_hotline {
+	display: flex;
+	align-items: center;
+	.item_icon {
+		font-size: 34px;
+		margin-right: 10px;
+		color: $color_danger;
+	}
+	.item_title {
+		line-height: 1;
+		color: #282828;
+		font-size: 12px;
+		font-weight: 500;
+		margin-bottom: 8px;
+	}
+	.hotline_number {
+		display: block;
+		line-height: 1;
+		font-weight: 700;
+		color: $color_danger;
+		font-family: $font_secondary;
+	}
+}
+
+.livechat_btn {
+	.btn {
+		float: right;
+		min-width: 160px;
+		border-radius: 45px;
+		padding: 13px 30px 11px;
+	}
+}
+
+.store_btns_group {
+	margin: -10px;
+	li {
+		width: 50%;
+		padding: 10px;
+	}
+	a {
+		display: block;
+	}
+}
+
+.copyright_text {
+	margin-bottom: 0;
+	a {
+		color: $color_secondary;
+		&:hover {
+			color: $color_primary;
+		}
+	}
+	b {
+		color: $color_dark;
+	}
+}
+
+.payment_method {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	h4 {
+		color: #282828;
+		font-size: 14px;
+		margin-bottom: 0;
+		margin-right: 15px;
+	}
+}
+/* 3.2 - Footer Section - end
+================================================== */

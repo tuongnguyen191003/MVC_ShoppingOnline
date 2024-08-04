@@ -1,0 +1,1293 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Final_ShoppingOnline.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Final_ShoppingOnline.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\about.html",
+      "PackagePath": "staticwebassets\\about.html"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\account.html",
+      "PackagePath": "staticwebassets\\account.html"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\css\\animate.css",
+      "PackagePath": "staticwebassets\\assets\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\assets\\css\\fontawesome.css"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\css\\icofont.css",
+      "PackagePath": "staticwebassets\\assets\\css\\icofont.css"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\css\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\assets\\css\\jquery-ui.css"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\assets\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\assets\\css\\nice-select.css"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\css\\slick-theme.css",
+      "PackagePath": "staticwebassets\\assets\\css\\slick-theme.css"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\css\\slick.css",
+      "PackagePath": "staticwebassets\\assets\\css\\slick.css"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\css\\stroke-gap-icons.css",
+      "PackagePath": "staticwebassets\\assets\\css\\stroke-gap-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\fonts\\allison_tessa\\AllisonTessa-ExtraexpandedExtra.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\allison_tessa\\AllisonTessa-ExtraexpandedExtra.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\fonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\fonts\\fa-duotone-900.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-duotone-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\fonts\\fa-light-300.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-light-300.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\fonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\fonts\\fa-sharp-light-300.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-sharp-light-300.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\fonts\\fa-sharp-regular-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-sharp-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\fonts\\fa-sharp-solid-900.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-sharp-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\fonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\fonts\\fa-thin-100.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-thin-100.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\fonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\fonts\\icofont.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\icofont.eot"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\fonts\\icofont.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\icofont.svg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\fonts\\icofont.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\icofont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\fonts\\icofont.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\icofont.woff"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\fonts\\icofont.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\icofont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\fonts\\slick\\slick.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\slick\\slick.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\fonts\\stroke-gap-icons\\Stroke-Gap-Icons.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\stroke-gap-icons\\Stroke-Gap-Icons.eot"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\fonts\\stroke-gap-icons\\Stroke-Gap-Icons.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\stroke-gap-icons\\Stroke-Gap-Icons.svg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\fonts\\stroke-gap-icons\\Stroke-Gap-Icons.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\stroke-gap-icons\\Stroke-Gap-Icons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\fonts\\stroke-gap-icons\\Stroke-Gap-Icons.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\stroke-gap-icons\\Stroke-Gap-Icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\fonts\\stroke-gap-icons\\demo.css",
+      "PackagePath": "staticwebassets\\assets\\fonts\\stroke-gap-icons\\demo.css"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\fonts\\stroke-gap-icons\\demo.js",
+      "PackagePath": "staticwebassets\\assets\\fonts\\stroke-gap-icons\\demo.js"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\fonts\\stroke-gap-icons\\index.html",
+      "PackagePath": "staticwebassets\\assets\\fonts\\stroke-gap-icons\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\fonts\\stroke-gap-icons\\selection.json",
+      "PackagePath": "staticwebassets\\assets\\fonts\\stroke-gap-icons\\selection.json"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\fonts\\stroke-gap-icons\\stroke-gap-icons.css",
+      "PackagePath": "staticwebassets\\assets\\fonts\\stroke-gap-icons\\stroke-gap-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\about\\about_image.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\about_image.svg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\app_store.png",
+      "PackagePath": "staticwebassets\\assets\\images\\app_store.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\author\\author_1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\author\\author_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\blog\\blog_1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\blog\\blog_10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog_10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\blog\\blog_11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog_11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\blog\\blog_12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog_12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\blog\\blog_13.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog_13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\blog\\blog_14.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog_14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\blog\\blog_15.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog_15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\blog\\blog_16.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog_16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\blog\\blog_17.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog_17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\blog\\blog_18.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog_18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\blog\\blog_2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\blog\\blog_3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\blog\\blog_4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog_4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\blog\\blog_5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog_5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\blog\\blog_6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog_6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\blog\\blog_7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog_7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\blog\\blog_8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog_8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\blog\\blog_9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog_9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\brand\\brand_1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brand\\brand_1.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\brand\\brand_2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brand\\brand_2.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\brand\\brand_3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brand\\brand_3.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\brand\\brand_4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brand\\brand_4.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\brand\\brand_5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brand\\brand_5.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\calltoaction\\bg_1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\calltoaction\\bg_1.webp"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\calltoaction\\controlar.png",
+      "PackagePath": "staticwebassets\\assets\\images\\calltoaction\\controlar.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\cart\\cart_img_1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\cart\\cart_img_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\cart\\cart_img_2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\cart\\cart_img_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\cart\\cart_img_3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\cart\\cart_img_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\categories\\category_1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\categories\\category_1.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\categories\\category_2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\categories\\category_2.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\categories\\category_3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\categories\\category_3.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\categories\\category_4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\categories\\category_4.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\categories\\category_5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\categories\\category_5.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\comment\\cmnt_thumb_1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\comment\\cmnt_thumb_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\comment\\cmnt_thumb_2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\comment\\cmnt_thumb_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\comment\\cmnt_thumb_3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\comment\\cmnt_thumb_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\compare\\compare_img_1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\compare\\compare_img_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\compare\\compare_img_2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\compare\\compare_img_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\compare\\compare_img_3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\compare\\compare_img_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\deals\\deals_product_1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\deals\\deals_product_1.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\deals\\deals_product_2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\deals\\deals_product_2.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\details\\blog_details_img_1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\details\\blog_details_img_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\details\\blog_details_img_2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\details\\blog_details_img_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\details\\blog_details_img_3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\details\\blog_details_img_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\details\\blog_details_img_4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\details\\blog_details_img_4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\details\\blog_details_img_5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\details\\blog_details_img_5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\details\\blog_details_img_6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\details\\blog_details_img_6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\details\\product_details_img_1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\details\\product_details_img_1.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\details\\product_details_img_2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\details\\product_details_img_2.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\details\\product_details_img_3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\details\\product_details_img_3.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\details\\product_details_img_4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\details\\product_details_img_4.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\empty_cart_image.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\empty_cart_image.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\flug\\flug_uk.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flug\\flug_uk.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\icons\\left_align.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\left_align.svg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\instagram\\instagram_img_1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\instagram\\instagram_img_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\instagram\\instagram_img_2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\instagram\\instagram_img_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\instagram\\instagram_img_3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\instagram\\instagram_img_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\instagram\\instagram_img_4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\instagram\\instagram_img_4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\instagram\\instagram_img_5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\instagram\\instagram_img_5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\instagram\\instagram_img_6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\instagram\\instagram_img_6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\latest_product\\latest_product_1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\latest_product\\latest_product_1.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\latest_product\\latest_product_2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\latest_product\\latest_product_2.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\latest_product\\latest_product_3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\latest_product\\latest_product_3.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\latest_product\\latest_product_4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\latest_product\\latest_product_4.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\logo\\Favourite_icon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo\\Favourite_icon.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\logo\\Logo-removebg-preview.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo\\Logo-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\logo\\Logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo\\Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\logo\\cybercore.logo.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\logo\\cybercore.logo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\logo\\favourite-big-size-icon-removebg.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo\\favourite-big-size-icon-removebg.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\logo\\favourite-big-size-icon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo\\favourite-big-size-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\logo\\favourite_icon.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\logo\\favourite_icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\logo\\site_logo.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\logo\\site_logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\payments_icon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\payments_icon.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\payments_icon_2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\payments_icon_2.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\payments_icon_3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\payments_icon_3.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\play_store.png",
+      "PackagePath": "staticwebassets\\assets\\images\\play_store.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\preloader.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\preloader.svg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\promotion\\banner_img_1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\promotion\\banner_img_1.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\promotion\\banner_img_2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\promotion\\banner_img_2.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\promotion\\banner_img_3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\promotion\\banner_img_3.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\promotion\\banner_img_4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\promotion\\banner_img_4.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\promotion\\banner_img_5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\promotion\\banner_img_5.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\promotion\\banner_img_6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\promotion\\banner_img_6.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\recent_post\\recent_post_img_1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\recent_post\\recent_post_img_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\recent_post\\recent_post_img_2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\recent_post\\recent_post_img_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\recent_post\\recent_post_img_3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\recent_post\\recent_post_img_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\shop\\product2_img_1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\product2_img_1.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\shop\\product2_img_2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\product2_img_2.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\shop\\product2_img_3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\product2_img_3.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\shop\\product2_img_4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\product2_img_4.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\shop\\product2_img_5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\product2_img_5.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\shop\\product_img_1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\product_img_1.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\shop\\product_img_10.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\product_img_10.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\shop\\product_img_11.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\product_img_11.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\shop\\product_img_12.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\product_img_12.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\shop\\product_img_13.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\product_img_13.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\shop\\product_img_14.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\product_img_14.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\shop\\product_img_15.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\product_img_15.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\shop\\product_img_16.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\product_img_16.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\shop\\product_img_17.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\product_img_17.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\shop\\product_img_18.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\product_img_18.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\shop\\product_img_19.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\product_img_19.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\shop\\product_img_2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\product_img_2.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\shop\\product_img_20.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\product_img_20.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\shop\\product_img_3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\product_img_3.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\shop\\product_img_4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\product_img_4.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\shop\\product_img_5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\product_img_5.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\shop\\product_img_6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\product_img_6.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\shop\\product_img_7.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\product_img_7.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\shop\\product_img_8.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\product_img_8.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\shop\\product_img_9.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\product_img_9.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\slider\\slider_image_1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\slider_image_1.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\slider\\slider_image_2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\slider_image_2.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\slider\\slider_image_3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\slider_image_3.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\slider\\slider_image_4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\slider_image_4.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\slider\\slider_image_5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\slider_image_5.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\team\\team_1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\team_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\team\\team_2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\team_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\team\\team_3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\team_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\team\\team_4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\team_4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\team\\team_5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\team_5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\team\\team_6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\team_6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\team\\team_7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\team_7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\team\\team_8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\team_8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\viewed_products\\viewed_product_img_1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\viewed_products\\viewed_product_img_1.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\viewed_products\\viewed_product_img_2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\viewed_products\\viewed_product_img_2.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\viewed_products\\viewed_product_img_3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\viewed_products\\viewed_product_img_3.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\viewed_products\\viewed_product_img_4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\viewed_products\\viewed_product_img_4.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\viewed_products\\viewed_product_img_5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\viewed_products\\viewed_product_img_5.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\images\\viewed_products\\viewed_product_img_6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\viewed_products\\viewed_product_img_6.png"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\js\\bootstrap5-dropdown-ml-hack.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap5-dropdown-ml-hack.js"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\js\\countdown.js",
+      "PackagePath": "staticwebassets\\assets\\js\\countdown.js"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\js\\counterup.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\counterup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\js\\gmaps.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\gmaps.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\js\\imagesloaded.pkgd.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\imagesloaded.pkgd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\js\\jquery-ui.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-ui.js"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\js\\mCustomScrollbar.js",
+      "PackagePath": "staticwebassets\\assets\\js\\mCustomScrollbar.js"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\js\\magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\magnific-popup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\js\\nice-select.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\nice-select.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\js\\slick.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\slick.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\js\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\js\\wow.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\wow.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\scss\\_fonts.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_fonts.scss"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\scss\\_mixin.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_mixin.scss"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\scss\\_reset.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_reset.scss"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\scss\\_responsive.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_responsive.scss"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\scss\\_variable.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_variable.scss"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\scss\\components\\_about.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\components\\_about.scss"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\scss\\components\\_account.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\components\\_account.scss"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\scss\\components\\_banner.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\components\\_banner.scss"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\scss\\components\\_blog.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\components\\_blog.scss"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\scss\\components\\_brand.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\components\\_brand.scss"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\scss\\components\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\components\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\scss\\components\\_calltoaction.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\components\\_calltoaction.scss"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\scss\\components\\_cart.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\components\\_cart.scss"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\scss\\components\\_category.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\components\\_category.scss"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\scss\\components\\_checkout.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\components\\_checkout.scss"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\scss\\components\\_compare.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\components\\_compare.scss"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\scss\\components\\_contact.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\components\\_contact.scss"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\scss\\components\\_deals.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\components\\_deals.scss"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\scss\\components\\_details.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\components\\_details.scss"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\scss\\components\\_error.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\components\\_error.scss"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\scss\\components\\_footer.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\components\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\scss\\components\\_header.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\components\\_header.scss"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\scss\\components\\_newsletter.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\components\\_newsletter.scss"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\scss\\components\\_order.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\components\\_order.scss"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\scss\\components\\_policy.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\components\\_policy.scss"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\scss\\components\\_register.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\components\\_register.scss"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\scss\\components\\_service.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\components\\_service.scss"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\scss\\components\\_shop.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\components\\_shop.scss"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\scss\\components\\_sidebar.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\components\\_sidebar.scss"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\scss\\components\\_slider.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\components\\_slider.scss"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\scss\\components\\_team.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\components\\_team.scss"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\scss\\elements\\_backtotop.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\elements\\_backtotop.scss"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\scss\\elements\\_button.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\elements\\_button.scss"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\scss\\elements\\_carousel.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\elements\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\scss\\elements\\_color.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\elements\\_color.scss"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\scss\\elements\\_countdown.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\elements\\_countdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\scss\\elements\\_form.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\elements\\_form.scss"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\scss\\elements\\_list.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\elements\\_list.scss"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\scss\\elements\\_meta.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\elements\\_meta.scss"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\scss\\elements\\_pagination.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\elements\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\scss\\elements\\_preloader.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\elements\\_preloader.scss"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\scss\\elements\\_range.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\elements\\_range.scss"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\scss\\elements\\_rating.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\elements\\_rating.scss"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\scss\\elements\\_social.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\elements\\_social.scss"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\scss\\elements\\_space.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\elements\\_space.scss"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\scss\\elements\\_title.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\elements\\_title.scss"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\assets\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\blog.html",
+      "PackagePath": "staticwebassets\\blog.html"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\blog_details.html",
+      "PackagePath": "staticwebassets\\blog_details.html"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\blog_grid.html",
+      "PackagePath": "staticwebassets\\blog_grid.html"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\blog_list.html",
+      "PackagePath": "staticwebassets\\blog_list.html"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\blog_masonry.html",
+      "PackagePath": "staticwebassets\\blog_masonry.html"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\cart.html",
+      "PackagePath": "staticwebassets\\cart.html"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\cart_empty.html",
+      "PackagePath": "staticwebassets\\cart_empty.html"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\checkout.html",
+      "PackagePath": "staticwebassets\\checkout.html"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\compare.html",
+      "PackagePath": "staticwebassets\\compare.html"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\contact.html",
+      "PackagePath": "staticwebassets\\contact.html"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\error.html",
+      "PackagePath": "staticwebassets\\error.html"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\index_2.html",
+      "PackagePath": "staticwebassets\\index_2.html"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\index_3.html",
+      "PackagePath": "staticwebassets\\index_3.html"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\order_tracking.html",
+      "PackagePath": "staticwebassets\\order_tracking.html"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\prepros.config",
+      "PackagePath": "staticwebassets\\prepros.config"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\register.html",
+      "PackagePath": "staticwebassets\\register.html"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\shop_details.html",
+      "PackagePath": "staticwebassets\\shop_details.html"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\shop_grid.html",
+      "PackagePath": "staticwebassets\\shop_grid.html"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\shop_list.html",
+      "PackagePath": "staticwebassets\\shop_list.html"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\team.html",
+      "PackagePath": "staticwebassets\\team.html"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\wishlist.html",
+      "PackagePath": "staticwebassets\\wishlist.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Final_ShoppingOnline.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Final_ShoppingOnline.props",
+      "PackagePath": "build\\Final_ShoppingOnline.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Final_ShoppingOnline.props",
+      "PackagePath": "buildMultiTargeting\\Final_ShoppingOnline.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Final_ShoppingOnline.props",
+      "PackagePath": "buildTransitive\\Final_ShoppingOnline.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

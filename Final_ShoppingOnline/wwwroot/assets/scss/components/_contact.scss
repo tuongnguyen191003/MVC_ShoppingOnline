@@ -1,0 +1,43 @@
+/* 3.19 - Contact Page - start
+================================================== */
+.map_section {
+	iframe {
+		width: 100%;
+		height: 380px;
+		display: block;
+	}
+}
+
+.contact_info_wrap {
+	.contact_title {
+		line-height: 1;
+		font-size: 38px;
+		margin-bottom: 15px;
+	}
+	p {
+		margin-bottom: 35px;
+	}
+	.contact_info_list {
+		padding: 24px;
+		border-radius: 4px;
+		border: 1px solid $color_border;
+		.list_title {
+			line-height: 1;
+			font-size: 20px;
+			margin-bottom: 16px;
+		}
+		ul {
+			li {
+				font-size: 15px;
+				&:not(:last-child) {
+					margin-bottom: 2px;
+				}
+			}
+		}
+		b {
+			color: $color_dark;
+		}
+	}
+}
+/* 3.19 - Contact Page - end
+================================================== */
