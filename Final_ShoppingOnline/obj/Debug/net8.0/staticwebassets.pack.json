@@ -5,6 +5,26 @@
       "PackagePath": "staticwebassets\\Final_ShoppingOnline.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\Images\\Brands\\apple.logo.jpg",
+      "PackagePath": "staticwebassets\\Images\\Brands\\apple.logo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\Images\\Brands\\samsung-logo.jpg",
+      "PackagePath": "staticwebassets\\Images\\Brands\\samsung-logo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\Images\\Brands\\xiaomi-logo.jpg",
+      "PackagePath": "staticwebassets\\Images\\Brands\\xiaomi-logo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\Images\\Products\\macbook-pro-14-hover.jpg",
+      "PackagePath": "staticwebassets\\Images\\Products\\macbook-pro-14-hover.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\Images\\Products\\macbook-pro-14.jpg",
+      "PackagePath": "staticwebassets\\Images\\Products\\macbook-pro-14.jpg"
+    },
+    {
       "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\Final_ShoppingOnline\\Final_ShoppingOnline\\wwwroot\\about.html",
       "PackagePath": "staticwebassets\\about.html"
     },
