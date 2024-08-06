@@ -2,6 +2,7 @@
 using Final_ShoppingOnline.Repository.Interfaces;
 using Final_ShoppingOnline.Models;
 using Final_ShoppingOnline.Models.Models.ProductModel;
+using Microsoft.AspNetCore.Http;
 
 namespace Final_ShoppingOnline.Controllers
 {
@@ -14,10 +15,10 @@ namespace Final_ShoppingOnline.Controllers
             _productService = productService;
         }
 
-        public IActionResult Index(int? categoryId, int? brandId, string memoryFilter, int? page)
+        public IActionResult Index(int? categoryId, int? brandId, string memoryFilter, string sortOrder, int? page = 1)
         {
             // Lấy danh sách sản phẩm từ service
-            var products = _productService.GetProducts(categoryId, brandId, memoryFilter, page);
+            var products = _productService.GetProducts(categoryId, brandId, memoryFilter, sortOrder, page);
 
             // Kiểm tra xem có sản phẩm nào được tìm thấy hay không
             if (products == null || !products.Any())
@@ -40,6 +41,10 @@ namespace Final_ShoppingOnline.Controllers
             ViewBag.LatestProducts = latestProducts;
             ViewBag.MemoryFilters = memoryFilters;
             ViewBag.BrandCounts = brandCounts;
+            ViewBag.CategoryId = categoryId;
+            ViewBag.BrandId = brandId;
+            ViewBag.MemoryFilter = memoryFilter;
+            ViewBag.SortOrder = sortOrder;
 
             return View(products);
         }
@@ -69,20 +74,20 @@ namespace Final_ShoppingOnline.Controllers
         }
 
         // Action xử lý phân trang (Previous)
-        public IActionResult Previous(int? page, int? categoryId, int? brandId, string memoryFilter)
+        public IActionResult Previous(int? page, int? categoryId, int? brandId, string memoryFilter, string sortOrder)
         {
             // Lấy danh sách sản phẩm từ service, sử dụng page để phân trang
-            var products = _productService.GetProducts(categoryId, brandId, memoryFilter, page - 1);
+            var products = _productService.GetProducts(categoryId, brandId, memoryFilter, sortOrder, page - 1);
 
             // Truyền danh sách sản phẩm vào view
             return View("Index", products);
         }
 
         // Action xử lý phân trang (Next)
-        public IActionResult Next(int? page, int? categoryId, int? brandId, string memoryFilter)
+        public IActionResult Next(int? page, int? categoryId, int? brandId, string memoryFilter, string sortOrder)
         {
             // Lấy danh sách sản phẩm từ service, sử dụng page để phân trang
-            var products = _productService.GetProducts(categoryId, brandId, memoryFilter, page + 1);
+            var products = _productService.GetProducts(categoryId, brandId, memoryFilter, sortOrder, page + 1);
 
             // Truyền danh sách sản phẩm vào view
             return View("Index", products);
@@ -108,5 +113,32 @@ namespace Final_ShoppingOnline.Controllers
             return View("Index", products);
         }
 
+        // Action xử lý sắp xếp theo tên
+        public IActionResult SortByName(int? categoryId, int? brandId, string memoryFilter, int? page = 1)
+        {
+            return RedirectToAction("Index", new { categoryId, brandId, memoryFilter, sortOrder = "name", page });
+        }
+
+        // Action xử lý sắp xếp theo giá
+        public IActionResult SortByPrice(int? categoryId, int? brandId, string memoryFilter, int? page = 1)
+        {
+            return RedirectToAction("Index", new { categoryId, brandId, memoryFilter, sortOrder = "price", page });
+        }
+
+        // Action xử lý Quick View
+        public IActionResult QuickView(int productId)
+        {
+            // Lấy thông tin sản phẩm từ database
+            var product = _productService.GetProductById(productId);
+
+            // Kiểm tra xem sản phẩm có tồn tại hay không
+            if (product == null)
+            {
+                return NotFound();
+            }
+
+            // Truyền dữ liệu sản phẩm vào Partial View
+            return PartialView("_QuickView", product);
+        }
     }
 }
