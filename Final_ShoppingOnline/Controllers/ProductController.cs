@@ -46,6 +46,10 @@ namespace Final_ShoppingOnline.Controllers
             ViewBag.MemoryFilter = memoryFilter;
             ViewBag.SortOrder = sortOrder;
 
+            // Lấy tổng số trang và trang hiện tại
+            ViewBag.TotalPages = _productService.GetTotalPages(categoryId, brandId, memoryFilter, sortOrder, 12);
+            ViewBag.CurrentPage = page;
+
             return View(products);
         }
 

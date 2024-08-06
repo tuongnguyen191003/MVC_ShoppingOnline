@@ -44,19 +44,21 @@
                                 <div class="select_option clearfix">
                                     <select name="sortOrder" id="sortOrder">
                                         <option data-display="Defaul Sorting" value="">Select Your Option</option>
-                                        @foreach (var category in ViewBag.Categories)
+                                        @if (ViewBag.SortOrder == "name")
                                         {
-                                            // Khai báo biến selected
-                                            var selected = category.Id == 1 ? "selected" : "";
-
-                                            <option value="@category.Id" selected="@selected">@category.Name</option>
+                                            <option value="name" selected>Sort By Name</option>
                                         }
-                                        @foreach (var category in ViewBag.Categories)
+                                        else
                                         {
-                                            // Khai báo biến selected
-                                            var selected = category.Id == ViewBag.CategoryId ? "selected" : "";
-
-                                            <option value="@category.Id" selected="@selected">@category.Name</option>
+                                            <option value="name">Sort By Name</option>
+                                        }
+                                        @if (ViewBag.SortOrder == "price")
+                                        {
+                                            <option value="price" selected>Sort By Price</option>
+                                        }
+                                        else
+                                        {
+                                            <option value="price">Sort By Price</option>
                                         }
                                     </select>
                                 </div>
@@ -266,19 +268,6 @@
                             </div>
 
                             <div class="fs_widget">
-                                <h3 class="fs_widget_title">Price</h3>
-                                <form action="#">
-                                    <div class="price-range-area clearfix">
-                                        <div class="price-text d-flex align-items-center">
-                                            <span>Range:</span>
-                                            <input type="text" id="amount" readonly>
-                                        </div>
-                                        <div id="slider-range" class="slider-range"></div>
-                                    </div>
-                                </form>
-                            </div>
-
-                            <div class="fs_widget">
                                 <h3 class="fs_widget_title">Average Rating</h3>
                                 <ul class="average_rating_list ul_li_block">
                                     @for (int i = 5; i > 0; i--)
@@ -295,7 +284,6 @@
                                             <span>(@Model.Where(p => p.StarRating == i).Count())</span>
                                         </li>
                                     }
-                                </ul>
                                 </ul>
                             </div>
 
@@ -372,6 +360,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
+                <!-- Nội dung Quick View sẽ được chèn vào đây -->
             </div>
         </div>
     </div>
@@ -470,4 +459,3 @@
         }
     </script>
 }
-

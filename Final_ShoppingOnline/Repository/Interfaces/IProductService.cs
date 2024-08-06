@@ -34,5 +34,8 @@ namespace Final_ShoppingOnline.Repository.Interfaces
         IEnumerable<MemoryFilterModel> GetMemoryFilters();
         // Phương thức lấy số lượng sản phẩm cho mỗi thương hiệu
         IEnumerable<BrandProductCountModel> GetBrandProductCounts();
+
+        int GetTotalPages(int? categoryId, int? brandId, string memoryFilter, string sortOrder, int pageSize);
     }
+
 }

@@ -1,0 +1,99 @@
+﻿@using Final_ShoppingOnline.Models.Models.ProductModel
+@model ProductModel
+
+<div class="product_details">
+    <div class="container">
+        <div class="row">
+            <div class="col col-lg-6">
+                <div class="product_details_image p-0">
+                    <img src="@Model.ImageUrl" alt="@Model.Name">
+                </div>
+            </div>
+
+            <div class="col col-lg-6">
+                <div class="product_details_content">
+                    <h2 class="item_title">@Model.Name</h2>
+                    <p>@Model.Description</p>
+                    <div class="item_review">
+                        <ul class="rating_star ul_li">
+                            @for (int i = 0; i < Model.StarRating; i++)
+                            {
+                                <li><i class="fa-solid fa-star"></i></li>
+                            }
+                            @for (int i = Model.StarRating; i < 5; i++)
+                            {
+                                <li><i class="fa-regular fa-star"></i></li>
+                            }
+                        </ul>
+                        <span class="review_value">@(Model.Reviews?.Count() ?? 0) Rating(s)</span>
+                    </div>
+                    <div class="item_price">
+                        <span>@Model.SalePrice.ToString("C")</span>
+                        <del>@Model.Price.ToString("C")</del>
+                    </div>
+
+                    <hr>
+
+                    <div class="item_attribute">
+                        <h3 class="title_text">Options <span class="underline"></span></h3>
+                        <form action="#">
+                            <div class="row">
+                                @if (Model.Options != null)
+                                {
+                                    foreach (var option in Model.Options)
+                                    {
+                                        <div class="col col-md-6">
+                                            <div class="select_option clearfix">
+                                                <h4 class="input_title">@option.Type.ToString()</h4>
+                                                <select>
+                                                    <option data-display="- Please select -">Choose A Option</option>
+                                                    <option value="@option.Value">@option.Value</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    }
+                                }
+                                else
+                                {
+                                    <p>No options available for this product.</p>
+                                }
+                                <span class="repuired_text">Required Fields *</span>
+                        </form>
+                    </div>
+
+                    <div class="quantity_wrap">
+                        <form action="#">
+                            <div class="quantity_input">
+                                <button type="button" class="input_number_decrement">
+                                    <i class="fal fa-minus"></i>
+                                </button>
+                                <input class="input_number" type="text" value="1">
+                                <button type="button" class="input_number_increment">
+                                    <i class="fal fa-plus"></i>
+                                </button>
+                            </div>
+                        </form>
+
+                        <div class="total_price">
+                            Total: @Model.SalePrice.ToString("C")
+                        </div>
+                    </div>
+
+                    <ul class="default_btns_group ul_li">
+                        <li><a class="addtocart_btn" asp-controller="Cart" asp-action="AddToCart" asp-route-id="@Model.Id">Add To Cart</a></li>
+                        <li><a href="#!"><i class="fa-solid fa-arrows-rotate"></i></a></li>
+                        <li><a href="#!"><i class="fas fa-heart"></i></a></li>
+                    </ul>
+
+                    <ul class="default_share_links ul_li">
+                        <li>
+                            <a class="share" href="#!">
+                                <span><i class="fas fa-plus-square"></i> Share</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -16,39 +16,100 @@ namespace Final_ShoppingOnline.Repository.Services
         }
 
         // Phương thức lấy danh sách sản phẩm
-        public IEnumerable<ProductModel> GetProducts(int? categoryId, int? brandId, string memoryFilter, int? page = 1)
+        public IEnumerable<ProductModel> GetProducts(int? categoryId, int? brandId, string memoryFilter, string sortOrder, int? page = 1)
         {
-            var products = _context.Products.AsQueryable();
+            var query = _context.Products.AsQueryable();
 
+            // Lọc theo danh mục
             if (categoryId.HasValue)
             {
-                products = products.Where(p => p.CategoryId == categoryId);
+                query = query.Where(p => p.CategoryId == categoryId.Value);
             }
 
+            // Lọc theo thương hiệu
             if (brandId.HasValue)
             {
-                products = products.Where(p => p.BrandId == brandId);
+                query = query.Where(p => p.BrandId == brandId.Value);
             }
 
+            // Lọc theo bộ nhớ
             if (!string.IsNullOrEmpty(memoryFilter))
             {
-                products = products.Where(p => p.Options.Any(o => o.Type == OptionTypeModel.RAM && o.Value == memoryFilter));
+                query = query.Where(p => p.Options.Any(o => o.Type == OptionTypeModel.RAM && o.Value == memoryFilter));
+            }
+
+            // Sắp xếp
+            switch (sortOrder)
+            {
+                case "name":
+                    query = query.OrderBy(p => p.Name);
+                    break;
+                case "price":
+                    query = query.OrderBy(p => p.Price);
+                    break;
+                default:
+                    query = query.OrderBy(p => p.Id);
+                    break;
             }
 
             // Phân trang
-            if (page.HasValue)
-            {
-                int pageSize = 12; // Kích thước mỗi trang
-                products = products.Skip((page.Value - 1) * pageSize).Take(pageSize);
-            }
+            var pageSize = 12; // Kích thước trang
+            var products = query
+                .Skip((page.Value - 1) * pageSize)
+                .Take(pageSize)
+                .ToList();
 
-            return products.ToList();
+            return products;
         }
 
         // Phương thức lấy chi tiết sản phẩm theo ID
         public ProductModel GetProductById(int id)
         {
             return _context.Products.FirstOrDefault(p => p.Id == id);
+        }
+
+
+        public int GetTotalPages(int? categoryId, int? brandId, string memoryFilter, string sortOrder, int pageSize)
+        {
+            var query = _context.Products.AsQueryable();
+
+            // Lọc theo danh mục
+            if (categoryId.HasValue)
+            {
+                query = query.Where(p => p.CategoryId == categoryId.Value);
+            }
+
+            // Lọc theo thương hiệu
+            if (brandId.HasValue)
+            {
+                query = query.Where(p => p.BrandId == brandId.Value);
+            }
+
+            // Lọc theo bộ nhớ
+            if (!string.IsNullOrEmpty(memoryFilter))
+            {
+                query = query.Where(p => p.Options.Any(o => o.Type == OptionTypeModel.RAM && o.Value == memoryFilter));
+            }
+
+            // Sắp xếp
+            switch (sortOrder)
+            {
+                case "name":
+                    query = query.OrderBy(p => p.Name);
+                    break;
+                case "price":
+                    query = query.OrderBy(p => p.Price);
+                    break;
+                default:
+                    query = query.OrderBy(p => p.Id);
+                    break;
+            }
+
+            // Tính tổng số trang
+            int totalProducts = query.Count();
+            int totalPages = (int)Math.Ceiling((double)totalProducts / pageSize);
+
+            return totalPages;
         }
 
         // Phương thức lọc sản phẩm theo mức giá
@@ -127,5 +188,7 @@ namespace Final_ShoppingOnline.Repository.Services
                 })
                 .ToList();
         }
+
+
     }
 }
