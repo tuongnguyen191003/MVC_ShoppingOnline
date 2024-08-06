@@ -7,7 +7,7 @@ namespace Final_ShoppingOnline.Repository.Interfaces
     public interface IProductService
     {
         // Phương thức lấy danh sách sản phẩm
-        IEnumerable<ProductModel> GetProducts(int? categoryId, int? brandId, string memoryFilter, int? page = 1);
+        IEnumerable<ProductModel> GetProducts(int? categoryId, int? brandId, string memoryFilter, string sortOrder, int? page = 1);
 
         // Phương thức lấy chi tiết sản phẩm theo ID
         ProductModel GetProductById(int id);

@@ -5,120 +5,24 @@
     ViewData["Title"] = "List Product";
 }
 
-<!-- product quick view modal - start
-================================================== -->
-@if (Model != null && Model.Any())
-{
-    // Hiển thị quick view modal - chỉ hiển thị một modal cho tất cả sản phẩm
-    <div class="modal fade" id="quickview_popup" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalToggleLabel2">Product Quick View</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <div class="product_details">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col col-lg-6">
-                                    <div class="product_details_image p-0">
-                                        <img src="" id="quickview-image" alt="">
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-6">
-                                    <div class="product_details_content">
-                                        <h2 class="item_title" id="quickview-title"></h2>
-                                        <p id="quickview-description"></p>
-                                        <div class="item_review">
-                                            <ul class="rating_star ul_li" id="quickview-rating"></ul>
-                                            <span class="review_value" id="quickview-rating-count"></span>
-                                        </div>
-                                        <div class="item_price">
-                                            <span id="quickview-sale-price"></span>
-                                            <del id="quickview-price"></del>
-                                        </div>
-
-                                        <hr>
-
-                                        <div class="item_attribute">
-                                            <h3 class="title_text">Options <span class="underline"></span></h3>
-                                            <form action="#">
-                                                <div class="row" id="quickview-options">
-                                                </div>
-                                                <span class="repuired_text">Required Fields *</span>
-                                            </form>
-                                        </div>
-
-                                        <div class="quantity_wrap">
-                                            <form action="#">
-                                                <div class="quantity_input">
-                                                    <button type="button" class="input_number_decrement">
-                                                        <i class="fal fa-minus"></i>
-                                                    </button>
-                                                    <input class="input_number" type="text" value="1">
-                                                    <button type="button" class="input_number_increment">
-                                                        <i class="fal fa-plus"></i>
-                                                    </button>
-                                                </div>
-                                            </form>
-
-                                            <div class="total_price">
-                                                Total: <span id="quickview-total-price"></span>
-                                            </div>
-                                        </div>
-
-                                        <ul class="default_btns_group ul_li">
-                                            <li><a class="addtocart_btn" asp-controller="Cart" asp-action="AddToCart" id="quickview-add-to-cart">Add To Cart</a></li>
-                                            <li><a href="#!"><i class="fa-solid fa-arrows-rotate"></i></a></li>
-                                            <li><a href="#!"><i class="fas fa-heart"></i></a></li>
-                                        </ul>
-
-                                        <ul class="default_share_links ul_li">
-                                            <li>
-                                                <a class="share" href="#!">
-                                                    <span><i class="fas fa-plus-square"></i> Share</span>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-}
-else
-{
-    // Hiển thị thông báo lỗi nếu Model rỗng hoặc null
-    <p>No products found.</p>
-}
-<!-- product quick view modal - end
-================================================== -->
-<!-- breadcrumb_section - start
-================================================== -->
+<!--Breadcrumb đã hoàn thành-->
 <div class="breadcrumb_section">
     <div class="container">
         <ul class="breadcrumb_nav ul_li">
             <li><a asp-controller="Home" asp-action="Index">Home</a></li>
-            <li>List Product</li>
+            <li>Listed Product</li>
         </ul>
     </div>
 </div>
-<!-- breadcrumb_section - end
-================================================== -->
-<!-- product_section - start
-================================================== -->
+
+
 <section class="product_section section_space">
     <div class="container">
         <div class="row">
             <div class="col-lg-9">
                 <div class="filter_topbar">
                     <div class="row align-items-center">
+                        <!--Button Layout ổn-->
                         <div class="col col-md-4 col-sm-4">
                             <ul class="layout_btns nav" role="tablist">
                                 <li role="presentation">
@@ -134,18 +38,36 @@ else
                             </ul>
                         </div>
 
+                        <!---->
                         <div class="col col-md-4 col-sm-4">
-                            <form action="#">
+                            <form asp-action="SortByName" asp-controller="Product" method="get">
                                 <div class="select_option clearfix">
-                                    <select>
-                                        <option data-display="Defaul Sorting">Select Your Option</option>
-                                        <option value="1">Sorting By Name</option>
-                                        <option value="2">Sorting By Price</option>
+                                    <select name="sortOrder" id="sortOrder">
+                                        <option data-display="Defaul Sorting" value="">Select Your Option</option>
+                                        @foreach (var category in ViewBag.Categories)
+                                        {
+                                            // Khai báo biến selected
+                                            var selected = category.Id == 1 ? "selected" : "";
+
+                                            <option value="@category.Id" selected="@selected">@category.Name</option>
+                                        }
+                                        @foreach (var category in ViewBag.Categories)
+                                        {
+                                            // Khai báo biến selected
+                                            var selected = category.Id == ViewBag.CategoryId ? "selected" : "";
+
+                                            <option value="@category.Id" selected="@selected">@category.Name</option>
+                                        }
                                     </select>
                                 </div>
+                                <input type="hidden" name="categoryId" value="@ViewBag.CategoryId" />
+                                <input type="hidden" name="brandId" value="@ViewBag.BrandId" />
+                                <input type="hidden" name="memoryFilter" value="@ViewBag.MemoryFilter" />
+                                <button type="submit" class="btn btn-primary">Sort</button>
                             </form>
                         </div>
 
+                        <!--Chức năng OK-->
                         <div class="col col-md-4 col-sm-4">
                             <div class="result_text">Showing 1-12 of @Model.Count() results</div>
                         </div>
@@ -160,30 +82,17 @@ else
                             @foreach (var product in Model)
                             {
                                 <div class="product_layout1">
-                                    @if (product.Status == ProductStatus.Hot)
+                                    @if (product.IsOnSale)
                                     {
                                         <div class="item_badge hot_badge">
                                             <span>HOT</span>
                                         </div>
                                     }
-                                    else if (product.Status == ProductStatus.New)
-                                    {
-                                        <div class="item_badge new_badge">
-                                            <span>NEW</span>
-                                        </div>
-                                    }
-                                    else if (product.Status == ProductStatus.Sale)
-                                    {
-                                        <div class="item_badge sale_badge">
-                                            <span>SALE</span>
-                                        </div>
-                                    }
-
                                     <div class="item_image">
-                                        <img src="@product.ImageUrl" alt="@product.Name">
-                                        <img src="@product.HoverImageUrl" alt="@product.Name">
-                                        <a class="quickview_btn" data-bs-toggle="modal" href="#quickview_popup" role="button"
-                                           onclick="showQuickView(@product.Id)">Quick View</a>
+                                        <img src="~/Images/Products/@product.ImageUrl" alt="@product.Name">
+                                        <img src="~/Images/Products/@product.HoverImageUrl" alt="@product.Name">
+                                        <a class="quickview_btn" data-bs-toggle="modal" data-bs-target="#quickview_popup" role="button"
+                                           data-product-id="@product.Id">Quick View</a>
                                     </div>
                                     <div class="item_content">
                                         <h3 class="item_title">
@@ -205,8 +114,8 @@ else
                                         </div>
                                         <ul class="item_btns_group ul_li">
                                             <li><a class="addtocart_btn" asp-controller="Cart" asp-action="AddToCart" asp-route-id="@product.Id">Add To Cart</a></li>
-                                            <li><a href="#!"><i class="fa-solid fa-arrows-rotate"></i></a></li>
-                                            <li><a href="#!"><i class="fas fa-heart"></i></a></li>
+                                            <li><a asp-controller="Compare" asp-action="AddToCompare"><i class="fa-solid fa-arrows-rotate"></i></a></li>
+                                            <li><a asp-controller="WishList" asp-action="AddToWishList"><i class="fas fa-heart"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -215,11 +124,12 @@ else
 
                         <div class="pagination_wrap">
                             <ul class="pagination_nav ul_li_right">
-                                <li class="active"><a href="#!">1</a></li>
-                                <li><a href="#!">2</a></li>
-                                <li><a href="#!">3</a></li>
-                                <li class="prev_btn"><a asp-action="Previous"><i class="fa-regular fa-angle-left"></i></a></li>
-                                <li class="next_btn"><a asp-action="Next"><i class="fa-regular fa-angle-right"></i></a></li>
+                                @for (int i = 1; i <= ViewBag.TotalPages; i++)
+                                {
+                                    <li class="@(i == ViewBag.CurrentPage ? "active" : "")"><a asp-action="Index" asp-controller="Product" asp-route-categoryId="@ViewBag.CategoryId" asp-route-brandId="@ViewBag.BrandId" asp-route-memoryFilter="@ViewBag.MemoryFilter" asp-route-sortOrder="@ViewBag.SortOrder" asp-route-page="@i">@i</a></li>
+                                }
+                                <li class="prev_btn"><a asp-action="Previous" asp-controller="Product" asp-route-page="@(ViewBag.CurrentPage - 1)" asp-route-categoryId="@ViewBag.CategoryId" asp-route-brandId="@ViewBag.BrandId" asp-route-memoryFilter="@ViewBag.MemoryFilter" asp-route-sortOrder="@ViewBag.SortOrder"><i class="fa-regular fa-angle-left"></i></a></li>
+                                <li class="next_btn"><a asp-action="Next" asp-controller="Product" asp-route-page="@(ViewBag.CurrentPage + 1)" asp-route-categoryId="@ViewBag.CategoryId" asp-route-brandId="@ViewBag.BrandId" asp-route-memoryFilter="@ViewBag.MemoryFilter" asp-route-sortOrder="@ViewBag.SortOrder"><i class="fa-regular fa-angle-right"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -230,8 +140,14 @@ else
                             {
                                 <div class="product_layout2">
                                     <div class="item_image">
+                                        @if (product.IsOnSale)
+                                        {
+                                            <div class="item_badge hot_badge">
+                                                <span>SALE</span>
+                                            </div>
+                                        }
                                         <a class="image_wrap" asp-controller="Product" asp-action="Details" asp-route-id="@product.Id">
-                                            <img src="@product.ImageUrl" alt="@product.Name">
+                                            <img src="~/Images/Products/@product.ImageUrl" alt="@product.Name">
                                         </a>
                                     </div>
                                     <div class="item_content">
@@ -257,8 +173,8 @@ else
                                         </div>
                                         <ul class="item_btns_group ul_li">
                                             <li><a class="addtocart_btn" asp-controller="Cart" asp-action="AddToCart" asp-route-id="@product.Id">Add To Cart</a></li>
-                                            <li><a href="#!"><i class="fa-solid fa-arrows-rotate"></i></a></li>
-                                            <li><a href="#!"><i class="fas fa-heart"></i></a></li>
+                                            <li><a asp-controller="Compare" asp-action="AddToCompare"><i class="fa-solid fa-arrows-rotate"></i></a></li>
+                                            <li><a asp-controller="WishList" asp-action="AddToWishList"><i class="fas fa-heart"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -267,17 +183,18 @@ else
 
                         <div class="pagination_wrap">
                             <ul class="pagination_nav ul_li_right">
-                                <li class="active"><a href="#!">1</a></li>
-                                <li><a href="#!">2</a></li>
-                                <li><a href="#!">3</a></li>
-                                <li class="prev_btn"><a asp-action="Previous"><i class="fa-regular fa-angle-left"></i></a></li>
-                                <li class="next_btn"><a asp-action="Next"><i class="fa-regular fa-angle-right"></i></a></li>
+                                @for (int i = 1; i <= ViewBag.TotalPages; i++)
+                                {
+                                    <li class="@(i == ViewBag.CurrentPage ? "active" : "")"><a asp-action="Index" asp-controller="Product" asp-route-categoryId="@ViewBag.CategoryId" asp-route-brandId="@ViewBag.BrandId" asp-route-memoryFilter="@ViewBag.MemoryFilter" asp-route-sortOrder="@ViewBag.SortOrder" asp-route-page="@i">@i</a></li>
+                                }
+                                <li class="prev_btn"><a asp-action="Previous" asp-controller="Product" asp-route-page="@(ViewBag.CurrentPage - 1)" asp-route-categoryId="@ViewBag.CategoryId" asp-route-brandId="@ViewBag.BrandId" asp-route-memoryFilter="@ViewBag.MemoryFilter" asp-route-sortOrder="@ViewBag.SortOrder"><i class="fa-regular fa-angle-left"></i></a></li>
+                                <li class="next_btn"><a asp-action="Next" asp-controller="Product" asp-route-page="@(ViewBag.CurrentPage + 1)" asp-route-categoryId="@ViewBag.CategoryId" asp-route-brandId="@ViewBag.BrandId" asp-route-memoryFilter="@ViewBag.MemoryFilter" asp-route-sortOrder="@ViewBag.SortOrder"><i class="fa-regular fa-angle-right"></i></a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
-            <!--Danh mục-->
+
             <div class="col-lg-3 order-lg-first">
                 <aside class="sidebar_section ps-0 mt-lg-0">
                     <div class="sb_widget sb_category">
@@ -285,7 +202,7 @@ else
                         <ul class="sb_category_list ul_li_block">
                             @foreach (var category in ViewBag.Categories)
                             {
-                                <li><a asp-controller="Product" asp-action="Index" asp-route-categoryId="@category.Id">@category.Name <span></span></a></li>
+                                <li><a asp-controller="Product" asp-action="Index" asp-route-categoryId="@category.Id">@category.Name</a></li>
                             }
                         </ul>
                     </div>
@@ -295,12 +212,7 @@ else
                         <ul class="sb_category_list ul_li_block">
                             @foreach (var brand in ViewBag.Brands)
                             {
-                                // Khai báo productCount bên ngoài vòng lặp
-                                int productCount;
-                                // Lấy số lượng sản phẩm từ ViewBag.BrandCounts
-                                productCount = ViewBag.BrandCounts.First(new Func<BrandProductCountModel, bool>(bc => bc.BrandId == brand.Id))?.Count ?? 0;
-
-                                <li><a asp-controller="Product" asp-action="Index" asp-route-brandId="@brand.Id">@brand.Name <span>(@productCount)</span></a></li>
+                                <li><a asp-controller="Product" asp-action="Index" asp-route-brandId="@brand.Id">@brand.Name</a></li>
                             }
                         </ul>
                     </div>
@@ -312,11 +224,11 @@ else
                                 <h3 class="fs_widget_title">Category</h3>
                                 <form action="#">
                                     <div class="select_option clearfix">
-                                        <select>
+                                        <select id="categoryFilter">
                                             <option data-display="Select Category">Select Your Option</option>
                                             @foreach (var category in ViewBag.Categories)
                                             {
-                                                <option value="@category.Id">@category.Name</option>
+                                                <option value="@category.Id" selected="@(category.Id == ViewBag.CategoryId ? "selected" : "")">@category.Name</option>
                                             }
                                         </select>
                                     </div>
@@ -324,15 +236,15 @@ else
                             </div>
 
                             <div class="fs_widget">
-                                <h3 class="fs_widget_title">Brands</h3>
+                                <h3 class="fs_widget_title">Brand</h3>
                                 <form action="#">
                                     <ul class="fs_brand_list ul_li_block">
                                         @foreach (var brand in ViewBag.Brands)
                                         {
                                             <li>
                                                 <div class="checkbox_item">
-                                                    <input id="@brand.Name" type="checkbox" name="brand_checkbox">
-                                                    @* <label for="@brand.Name">@brand.Name <span>(@productCount)</span></label> *@
+                                                    <input id="@brand.Id" type="checkbox" name="brand_checkbox">
+                                                    <label for="@brand.Id">@brand.Name</label>
                                                 </div>
                                             </li>
                                         }
@@ -342,7 +254,7 @@ else
 
                             <div class="fs_widget">
                                 <h3 class="fs_widget_title">Price</h3>
-                                <form asp-controller="Product" asp-action="FilterByPrice">
+                                <form action="#">
                                     <div class="price-range-area clearfix">
                                         <div class="price-text d-flex align-items-center">
                                             <span>Range:</span>
@@ -350,7 +262,19 @@ else
                                         </div>
                                         <div id="slider-range" class="slider-range"></div>
                                     </div>
-                                    <button type="submit" class="btn btn_primary">Apply Filter</button>
+                                </form>
+                            </div>
+
+                            <div class="fs_widget">
+                                <h3 class="fs_widget_title">Price</h3>
+                                <form action="#">
+                                    <div class="price-range-area clearfix">
+                                        <div class="price-text d-flex align-items-center">
+                                            <span>Range:</span>
+                                            <input type="text" id="amount" readonly>
+                                        </div>
+                                        <div id="slider-range" class="slider-range"></div>
+                                    </div>
                                 </form>
                             </div>
 
@@ -372,6 +296,7 @@ else
                                         </li>
                                     }
                                 </ul>
+                                </ul>
                             </div>
 
                             <div class="fs_widget">
@@ -379,9 +304,16 @@ else
                                 <ul class="filter_memory_list ul_li_block">
                                     @foreach (var option in ViewBag.MemoryFilters)
                                     {
-                                        <li><a asp-controller="Product" asp-action="Index" asp-route-memoryFilter="@option.Value">@option.Value <span>(@option.Quantity)</span></a></li>
+                                        <li>
+                                            <div class="checkbox_item">
+                                                <input type="checkbox" name="memoryFilter" value="@option.Value">
+                                                <label for="@option.Value">@option.Value</label>
+                                            </div>
+                                        </li>
                                     }
                                 </ul>
+                                <button type="button" class="btn btn-primary" onclick="filterProducts()">Filter</button>
+                                <button type="button" class="btn btn-secondary" onclick="clearFilters()">Clear</button>
                             </div>
                         </div>
                     </div>
@@ -431,56 +363,111 @@ else
         </div>
     </div>
 </section>
-<!-- product_section - end
-================================================== -->
-@* @section Scripts {
+
+<div class="modal fade" id="quickview_popup" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalToggleLabel2">Product Quick View</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
     <script>
         // Hàm hiển thị Quick View
         function showQuickView(productId) {
-            // Lấy thông tin sản phẩm từ Model
-            var product = @Html.Raw(Json.Serialize(Model.FirstOrDefault(p => p.Id == productId)));
+            // Gọi action QuickView trong controller
+            $.ajax({
+                url: '/Product/QuickView/' + productId,
+                type: 'GET',
+                success: function (data) {
+                    // Cập nhật nội dung modal Quick View
+                    $('#quickview_popup .modal-body').html(data);
+                    // Hiển thị modal
+                    $('#quickview_popup').modal('show');
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    // Xử lý lỗi nếu có
+                    console.error(textStatus + ': ' + errorThrown);
+                }
+            });
+        }
 
-            // Cập nhật thông tin sản phẩm trong modal
-            $("#quickview-image").attr("src", product.ImageUrl);
-            $("#quickview-title").text(product.Name);
-            $("#quickview-description").text(product.Description);
+        $(document).ready(function () {
+            // Gắn sự kiện click vào nút Quick View
+            $('.quickview_btn').click(function () {
+                // Lấy productId từ thuộc tính data-product-id
+                var productId = $(this).data('product-id');
+                // Gọi hàm showQuickView
+                showQuickView(productId);
+            });
 
-            // Hiển thị sao đánh giá
-            var ratingHtml = "";
-            for (var i = 0; i < product.StarRating; i++) {
-                ratingHtml += '<li><i class="fa-solid fa-star"></i></li>';
+            // Initialize Price Slider
+            $("#slider-range").slider({
+                range: true,
+                min: 0,
+                max: 1000, // Thay đổi giá trị max phù hợp với phạm vi giá sản phẩm
+                values: [0, 1000], // Giá trị mặc định cho slider
+                slide: function (event, ui) {
+                    $("#amount").val("$" + ui.values[0] + " - $" + ui.values[1]);
+                }
+            });
+            $("#amount").val("$" + $("#slider-range").slider("values", 0) + " - $" + $("#slider-range").slider("values", 1));
+        });
+
+        // Hàm lọc sản phẩm
+        function filterProducts() {
+            // Lấy giá trị từ các filter
+            var categoryId = $('#categoryFilter').val();
+            var brandCheckbox = $('input[name="brand_checkbox"]:checked');
+            var brandIds = brandCheckbox.map(function () {
+                return $(this).attr('id');
+            }).get();
+            var minPrice = $('#slider-range').slider('values', 0);
+            var maxPrice = $('#slider-range').slider('values', 1);
+            var memoryFilter = $('input[name="memoryFilter"]:checked').val();
+
+            // Tạo query string để redirect
+            var queryString = "?";
+            if (categoryId) {
+                queryString += "categoryId=" + categoryId + "&";
             }
-            for (var i = product.StarRating; i < 5; i++) {
-                ratingHtml += '<li><i class="fa-regular fa-star"></i></li>';
+            if (brandIds.length > 0) {
+                queryString += "brandIds=" + brandIds.join(",") + "&";
             }
-            $("#quickview-rating").html(ratingHtml);
-
-            $("#quickview-rating-count").text(product.Reviews?.Count() ?? 0 + " Rating(s)");
-            $("#quickview-price").text(product.Price.toLocaleString('en-US', { style: 'currency', currency: 'USD' }));
-            $("#quickview-sale-price").text(product.SalePrice.toLocaleString('en-US', { style: 'currency', currency: 'USD' }));
-            $("#quickview-total-price").text(product.SalePrice.toLocaleString('en-US', { style: 'currency', currency: 'USD' }));
-
-            // Cập nhật nút "Add to Cart"
-            $("#quickview-add-to-cart").attr("href", "/Cart/AddToCart/" + productId);
-
-            // Hiển thị các tùy chọn
-            var optionsHtml = "";
-            if (product.Options != null) {
-                product.Options.forEach(function (option) {
-                    optionsHtml += '<div class="col col-md-6">' +
-                        '<div class="select_option clearfix">' +
-                        '<h4 class="input_title">' + option.Type + '</h4>' +
-                        '<select>' +
-                        '<option data-display="- Please select -">Choose A Option</option>' +
-                        '<option value="' + option.Value + '">' + option.Value + '</option>' +
-                        '</select>' +
-                        '</div>' +
-                        '</div>';
-                });
-            } else {
-                optionsHtml += '<p>No options available for this product.</p>';
+            if (minPrice) {
+                queryString += "minPrice=" + minPrice + "&";
             }
-            $("#quickview-options").html(optionsHtml);
+            if (maxPrice) {
+                queryString += "maxPrice=" + maxPrice + "&";
+            }
+            if (memoryFilter) {
+                queryString += "memoryFilter=" + memoryFilter + "&";
+            }
+            // Remove dấu & cuối cùng
+            queryString = queryString.substring(0, queryString.length - 1);
+
+            // Redirect đến action Index với query string
+            window.location.href = "/Product/Index" + queryString;
+        }
+
+        // Hàm xóa filter
+        function clearFilters() {
+            // Reset các filter
+            $('#categoryFilter').val("");
+            $('input[name="brand_checkbox"]').prop("checked", false);
+            $('#slider-range').slider('values', 0, 0);
+            $('input[name="memoryFilter"]').prop("checked", false);
+
+            // Redirect đến action Index mà không có query string
+            window.location.href = "/Product/Index";
         }
     </script>
-} *@
+}
+
