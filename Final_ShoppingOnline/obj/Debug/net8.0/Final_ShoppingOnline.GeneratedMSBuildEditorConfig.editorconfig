@@ -38,10 +38,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguye/OneDrive/Máy tính/Final_ShoppingOnline/Final_ShoppingOnline/Views/Product/_QuickView.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxfUXVpY2tWaWV3LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/nguye/OneDrive/Máy tính/Final_ShoppingOnline/Final_ShoppingOnline/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -52,6 +48,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/nguye/OneDrive/Máy tính/Final_ShoppingOnline/Final_ShoppingOnline/Views/Shared/_LayoutNewsLetter.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXROZXdzTGV0dGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguye/OneDrive/Máy tính/Final_ShoppingOnline/Final_ShoppingOnline/Views/Shared/_QuickView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9RdWlja1ZpZXcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/nguye/OneDrive/Máy tính/Final_ShoppingOnline/Final_ShoppingOnline/Views/Shared/_ValidationScriptsPartial.cshtml]

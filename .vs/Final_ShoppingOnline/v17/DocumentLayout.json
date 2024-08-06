@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{063B9C07-BBA9-4524-A04B-203F6D42EECF}|Final_ShoppingOnline\\Final_ShoppingOnline.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\final_shoppingonline\\final_shoppingonline\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{063B9C07-BBA9-4524-A04B-203F6D42EECF}|Final_ShoppingOnline\\Final_ShoppingOnline.csproj|solutionrelative:final_shoppingonline\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{063B9C07-BBA9-4524-A04B-203F6D42EECF}|Final_ShoppingOnline\\Final_ShoppingOnline.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\final_shoppingonline\\final_shoppingonline\\repository\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{063B9C07-BBA9-4524-A04B-203F6D42EECF}|Final_ShoppingOnline\\Final_ShoppingOnline.csproj|solutionrelative:final_shoppingonline\\repository\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{063B9C07-BBA9-4524-A04B-203F6D42EECF}|Final_ShoppingOnline\\Final_ShoppingOnline.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\final_shoppingonline\\final_shoppingonline\\views\\product\\_quickview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{063B9C07-BBA9-4524-A04B-203F6D42EECF}|Final_ShoppingOnline\\Final_ShoppingOnline.csproj|solutionrelative:final_shoppingonline\\views\\product\\_quickview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{063B9C07-BBA9-4524-A04B-203F6D42EECF}|Final_ShoppingOnline\\Final_ShoppingOnline.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\final_shoppingonline\\final_shoppingonline\\repository\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{063B9C07-BBA9-4524-A04B-203F6D42EECF}|Final_ShoppingOnline\\Final_ShoppingOnline.csproj|solutionrelative:final_shoppingonline\\repository\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{063B9C07-BBA9-4524-A04B-203F6D42EECF}|Final_ShoppingOnline\\Final_ShoppingOnline.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\final_shoppingonline\\final_shoppingonline\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{063B9C07-BBA9-4524-A04B-203F6D42EECF}|Final_ShoppingOnline\\Final_ShoppingOnline.csproj|solutionrelative:final_shoppingonline\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{063B9C07-BBA9-4524-A04B-203F6D42EECF}|Final_ShoppingOnline\\Final_ShoppingOnline.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\final_shoppingonline\\final_shoppingonline\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{063B9C07-BBA9-4524-A04B-203F6D42EECF}|Final_ShoppingOnline\\Final_ShoppingOnline.csproj|solutionrelative:final_shoppingonline\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{063B9C07-BBA9-4524-A04B-203F6D42EECF}|Final_ShoppingOnline\\Final_ShoppingOnline.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\final_shoppingonline\\final_shoppingonline\\views\\shared\\_layoutcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{063B9C07-BBA9-4524-A04B-203F6D42EECF}|Final_ShoppingOnline\\Final_ShoppingOnline.csproj|solutionrelative:final_shoppingonline\\views\\shared\\_layoutcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{063B9C07-BBA9-4524-A04B-203F6D42EECF}|Final_ShoppingOnline\\Final_ShoppingOnline.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\final_shoppingonline\\final_shoppingonline\\views\\shared\\_quickview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{063B9C07-BBA9-4524-A04B-203F6D42EECF}|Final_ShoppingOnline\\Final_ShoppingOnline.csproj|solutionrelative:final_shoppingonline\\views\\shared\\_quickview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{063B9C07-BBA9-4524-A04B-203F6D42EECF}|Final_ShoppingOnline\\Final_ShoppingOnline.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\final_shoppingonline\\final_shoppingonline\\repository\\validation\\fileextensionattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{063B9C07-BBA9-4524-A04B-203F6D42EECF}|Final_ShoppingOnline\\Final_ShoppingOnline.csproj|solutionrelative:final_shoppingonline\\repository\\validation\\fileextensionattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{063B9C07-BBA9-4524-A04B-203F6D42EECF}|Final_ShoppingOnline\\Final_ShoppingOnline.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\final_shoppingonline\\final_shoppingonline\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -78,14 +94,6 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/MSITHINGF63_TUONGNM/EcommerceWeb/sa/SqlTable/dbo.Products.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{063B9C07-BBA9-4524-A04B-203F6D42EECF}|Final_ShoppingOnline\\Final_ShoppingOnline.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\final_shoppingonline\\final_shoppingonline\\repository\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{063B9C07-BBA9-4524-A04B-203F6D42EECF}|Final_ShoppingOnline\\Final_ShoppingOnline.csproj|solutionrelative:final_shoppingonline\\repository\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{063B9C07-BBA9-4524-A04B-203F6D42EECF}|Final_ShoppingOnline\\Final_ShoppingOnline.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\final_shoppingonline\\final_shoppingonline\\repository\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{063B9C07-BBA9-4524-A04B-203F6D42EECF}|Final_ShoppingOnline\\Final_ShoppingOnline.csproj|solutionrelative:final_shoppingonline\\repository\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{063B9C07-BBA9-4524-A04B-203F6D42EECF}|Final_ShoppingOnline\\Final_ShoppingOnline.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\final_shoppingonline\\final_shoppingonline\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{063B9C07-BBA9-4524-A04B-203F6D42EECF}|Final_ShoppingOnline\\Final_ShoppingOnline.csproj|solutionrelative:final_shoppingonline\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -114,14 +122,6 @@
       "RelativeMoniker": "D:0:0:{063B9C07-BBA9-4524-A04B-203F6D42EECF}|Final_ShoppingOnline\\Final_ShoppingOnline.csproj|solutionrelative:final_shoppingonline\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{063B9C07-BBA9-4524-A04B-203F6D42EECF}|Final_ShoppingOnline\\Final_ShoppingOnline.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\final_shoppingonline\\final_shoppingonline\\repository\\validation\\fileextensionattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{063B9C07-BBA9-4524-A04B-203F6D42EECF}|Final_ShoppingOnline\\Final_ShoppingOnline.csproj|solutionrelative:final_shoppingonline\\repository\\validation\\fileextensionattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{063B9C07-BBA9-4524-A04B-203F6D42EECF}|Final_ShoppingOnline\\Final_ShoppingOnline.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\final_shoppingonline\\final_shoppingonline\\views\\shared\\_layoutcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{063B9C07-BBA9-4524-A04B-203F6D42EECF}|Final_ShoppingOnline\\Final_ShoppingOnline.csproj|solutionrelative:final_shoppingonline\\views\\shared\\_layoutcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{063B9C07-BBA9-4524-A04B-203F6D42EECF}|Final_ShoppingOnline\\Final_ShoppingOnline.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\final_shoppingonline\\final_shoppingonline\\views\\shared\\_layoutnewsletter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{063B9C07-BBA9-4524-A04B-203F6D42EECF}|Final_ShoppingOnline\\Final_ShoppingOnline.csproj|solutionrelative:final_shoppingonline\\views\\shared\\_layoutnewsletter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -145,21 +145,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_QuickView.cshtml",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Views\\Product\\_QuickView.cshtml",
-              "RelativeDocumentMoniker": "Final_ShoppingOnline\\Views\\Product\\_QuickView.cshtml",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Views\\Product\\_QuickView.cshtml",
-              "RelativeToolTip": "Final_ShoppingOnline\\Views\\Product\\_QuickView.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-06T07:53:48.315Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -168,7 +155,7 @@
               "RelativeDocumentMoniker": "Final_ShoppingOnline\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Controllers\\ProductController.cs",
               "RelativeToolTip": "Final_ShoppingOnline\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAEQAAAAAAAAAAAAkwFQAAAAAAAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAADwvy8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-05T06:16:48.644Z",
               "EditorCaption": ""
@@ -176,57 +163,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Views\\Product\\Details.cshtml",
-              "RelativeDocumentMoniker": "Final_ShoppingOnline\\Views\\Product\\Details.cshtml",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Views\\Product\\Details.cshtml",
-              "RelativeToolTip": "Final_ShoppingOnline\\Views\\Product\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-05T06:19:08.686Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "Final_ShoppingOnline\\Views\\Product\\Index.cshtml",
               "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Views\\Product\\Index.cshtml",
               "RelativeToolTip": "Final_ShoppingOnline\\Views\\Product\\Index.cshtml",
-              "ViewState": "AQIAACgAAAAAAAAAAAA2wDoAAABfAAAA",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAkwDgAAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-05T06:18:58.78Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "Final_ShoppingOnline\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "Final_ShoppingOnline\\Models\\ErrorViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T06:44:07.814Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GenerateTestData.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Repository\\Data\\GenerateTestData.cs",
-              "RelativeDocumentMoniker": "Final_ShoppingOnline\\Repository\\Data\\GenerateTestData.cs",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Repository\\Data\\GenerateTestData.cs",
-              "RelativeToolTip": "Final_ShoppingOnline\\Repository\\Data\\GenerateTestData.cs",
-              "ViewState": "AQIAAFEBAAAAAAAAAAAwwGYBAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T07:55:26.614Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "DataContext.cs",
               "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Repository\\Data\\DataContext.cs",
               "RelativeDocumentMoniker": "Final_ShoppingOnline\\Repository\\Data\\DataContext.cs",
@@ -234,12 +183,11 @@
               "RelativeToolTip": "Final_ShoppingOnline\\Repository\\Data\\DataContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T17:41:05.687Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-05T17:41:05.687Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Empty.cshtml",
               "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Views\\Product\\Empty.cshtml",
               "RelativeDocumentMoniker": "Final_ShoppingOnline\\Views\\Product\\Empty.cshtml",
@@ -247,12 +195,24 @@
               "RelativeToolTip": "Final_ShoppingOnline\\Views\\Product\\Empty.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-05T14:25:57.228Z",
+              "WhenOpened": "2024-08-05T14:25:57.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_LayoutCustomer.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Views\\Shared\\_LayoutCustomer.cshtml",
+              "RelativeDocumentMoniker": "Final_ShoppingOnline\\Views\\Shared\\_LayoutCustomer.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Views\\Shared\\_LayoutCustomer.cshtml",
+              "RelativeToolTip": "Final_ShoppingOnline\\Views\\Shared\\_LayoutCustomer.cshtml",
+              "ViewState": "AQIAAEABAAAAAAAAAAAkwE0BAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-04T04:40:29.541Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "BrandModel.cs",
               "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Models\\BrandModel.cs",
               "RelativeDocumentMoniker": "Final_ShoppingOnline\\Models\\BrandModel.cs",
@@ -264,7 +224,94 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Repository\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "Final_ShoppingOnline\\Repository\\Interfaces\\IProductService.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Repository\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "Final_ShoppingOnline\\Repository\\Interfaces\\IProductService.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAkwCgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T14:10:29.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Repository\\ProductService.cs",
+              "RelativeDocumentMoniker": "Final_ShoppingOnline\\Repository\\ProductService.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Repository\\ProductService.cs",
+              "RelativeToolTip": "Final_ShoppingOnline\\Repository\\ProductService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T14:06:17.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GenerateTestData.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Repository\\Data\\GenerateTestData.cs",
+              "RelativeDocumentMoniker": "Final_ShoppingOnline\\Repository\\Data\\GenerateTestData.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Repository\\Data\\GenerateTestData.cs",
+              "RelativeToolTip": "Final_ShoppingOnline\\Repository\\Data\\GenerateTestData.cs",
+              "ViewState": "AQIAAFEBAAAAAAAAAAAwwGYBAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T07:55:26.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_QuickView.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Views\\Shared\\_QuickView.cshtml",
+              "RelativeDocumentMoniker": "Final_ShoppingOnline\\Views\\Shared\\_QuickView.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Views\\Shared\\_QuickView.cshtml",
+              "RelativeToolTip": "Final_ShoppingOnline\\Views\\Shared\\_QuickView.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T08:31:26.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FileExtensionAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Repository\\Validation\\FileExtensionAttribute.cs",
+              "RelativeDocumentMoniker": "Final_ShoppingOnline\\Repository\\Validation\\FileExtensionAttribute.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Repository\\Validation\\FileExtensionAttribute.cs",
+              "RelativeToolTip": "Final_ShoppingOnline\\Repository\\Validation\\FileExtensionAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T07:53:07.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Final_ShoppingOnline\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Final_ShoppingOnline\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T06:44:07.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Views\\Product\\Details.cshtml",
+              "RelativeDocumentMoniker": "Final_ShoppingOnline\\Views\\Product\\Details.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Views\\Product\\Details.cshtml",
+              "RelativeToolTip": "Final_ShoppingOnline\\Views\\Product\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T06:19:08.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "CategoryModel.cs",
               "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Models\\CategoryModel.cs",
               "RelativeDocumentMoniker": "Final_ShoppingOnline\\Models\\CategoryModel.cs",
@@ -276,7 +323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "BrandProductCountModel.cs",
               "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Models\\BrandProductCountModel.cs",
               "RelativeDocumentMoniker": "Final_ShoppingOnline\\Models\\BrandProductCountModel.cs",
@@ -288,7 +335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "OptionTypeModel.cs",
               "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Models\\OptionTypeModel.cs",
               "RelativeDocumentMoniker": "Final_ShoppingOnline\\Models\\OptionTypeModel.cs",
@@ -300,7 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "ProductOption.cs",
               "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Models\\ProductOption.cs",
               "RelativeDocumentMoniker": "Final_ShoppingOnline\\Models\\ProductOption.cs",
@@ -312,7 +359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "ProductReview.cs",
               "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Models\\ProductReview.cs",
               "RelativeDocumentMoniker": "Final_ShoppingOnline\\Models\\ProductReview.cs",
@@ -324,7 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "ProductStatus.cs",
               "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Models\\ProductStatus.cs",
               "RelativeDocumentMoniker": "Final_ShoppingOnline\\Models\\ProductStatus.cs",
@@ -336,7 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "ProductModel.cs",
               "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Models\\ProductModel.cs",
               "RelativeDocumentMoniker": "Final_ShoppingOnline\\Models\\ProductModel.cs",
@@ -348,7 +395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "MemoryFilterModel.cs",
               "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Models\\MemoryFilterModel.cs",
               "RelativeDocumentMoniker": "Final_ShoppingOnline\\Models\\MemoryFilterModel.cs",
@@ -360,7 +407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "ProductRelatedProductModel.cs",
               "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Models\\ProductRelatedProductModel.cs",
               "RelativeDocumentMoniker": "Final_ShoppingOnline\\Models\\ProductRelatedProductModel.cs",
@@ -372,7 +419,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "dbo.Products [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/MSITHINGF63_TUONGNM/EcommerceWeb/sa/SqlTable/dbo.Products.sql",
               "ToolTip": "dbo.Products [Data]",
@@ -381,7 +428,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "20240805141830_Initial.cs",
               "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Migrations\\20240805141830_Initial.cs",
               "RelativeDocumentMoniker": "Final_ShoppingOnline\\Migrations\\20240805141830_Initial.cs",
@@ -393,7 +440,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "20240805145710_Initial.cs",
               "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Migrations\\20240805145710_Initial.cs",
               "RelativeDocumentMoniker": "Final_ShoppingOnline\\Migrations\\20240805145710_Initial.cs",
@@ -417,32 +464,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "IProductService.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Repository\\Interfaces\\IProductService.cs",
-              "RelativeDocumentMoniker": "Final_ShoppingOnline\\Repository\\Interfaces\\IProductService.cs",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Repository\\Interfaces\\IProductService.cs",
-              "RelativeToolTip": "Final_ShoppingOnline\\Repository\\Interfaces\\IProductService.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAkwCIAAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T14:10:29.898Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Repository\\ProductService.cs",
-              "RelativeDocumentMoniker": "Final_ShoppingOnline\\Repository\\ProductService.cs",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Repository\\ProductService.cs",
-              "RelativeToolTip": "Final_ShoppingOnline\\Repository\\ProductService.cs",
-              "ViewState": "AQIAAHQAAAAAAAAAAAAwwIAAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T14:06:17.004Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Program.cs",
               "RelativeDocumentMoniker": "Final_ShoppingOnline\\Program.cs",
@@ -454,7 +476,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\appsettings.json",
               "RelativeDocumentMoniker": "Final_ShoppingOnline\\appsettings.json",
@@ -466,7 +488,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "Final_ShoppingOnline\\Views\\Home\\Privacy.cshtml",
@@ -478,19 +500,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "FileExtensionAttribute.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Repository\\Validation\\FileExtensionAttribute.cs",
-              "RelativeDocumentMoniker": "Final_ShoppingOnline\\Repository\\Validation\\FileExtensionAttribute.cs",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Repository\\Validation\\FileExtensionAttribute.cs",
-              "RelativeToolTip": "Final_ShoppingOnline\\Repository\\Validation\\FileExtensionAttribute.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T07:53:07.789Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "SessionExtension.cs",
               "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Repository\\SessionExtension.cs",
               "RelativeDocumentMoniker": "Final_ShoppingOnline\\Repository\\SessionExtension.cs",
@@ -526,7 +536,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Final_ShoppingOnline\\Views\\Home\\Index.cshtml",
@@ -547,18 +557,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-04T04:48:15.738Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "_LayoutCustomer.cshtml",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Views\\Shared\\_LayoutCustomer.cshtml",
-              "RelativeDocumentMoniker": "Final_ShoppingOnline\\Views\\Shared\\_LayoutCustomer.cshtml",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\Final_ShoppingOnline\\Final_ShoppingOnline\\Views\\Shared\\_LayoutCustomer.cshtml",
-              "RelativeToolTip": "Final_ShoppingOnline\\Views\\Shared\\_LayoutCustomer.cshtml",
-              "ViewState": "AQIAALIAAAAAAAAAAAA2wLkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-04T04:40:29.541Z"
             }
           ]
         }
